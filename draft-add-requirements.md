@@ -5,8 +5,8 @@ docname: draft-add-requirements-latest
 category: info
 
 ipr: trust200902
-area: General
-workgroup: TODO Working Group
+area: Internet
+workgroup: ADD
 keyword: Internet-Draft
 
 stand_alone: yes
@@ -28,7 +28,7 @@ informative:
 
 --- abstract
 
-TODO Abstract
+A gathering of requirements for Adaptive DNS Discovery.
 
 --- middle
 
