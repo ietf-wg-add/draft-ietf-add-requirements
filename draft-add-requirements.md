@@ -1,7 +1,7 @@
 ---
 title: "Requirements for Adaptive DNS Discovery"
 abbrev: "ADDREQ"
-docname: draft-add-requirements
+docname: draft-add-requirements-latest
 category: info
 
 ipr: trust200902
