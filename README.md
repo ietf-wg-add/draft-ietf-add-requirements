@@ -2,11 +2,15 @@
 
 This is the working area for the individual Internet-Draft, "Requirements for Adaptive DNS Discovery".
 
+The following links point to the built draft document.  Editor's copy is based on the document source checked into the Master branch, and Indivudual Draft refers the IETF Datatracker most recently upload.
+
 * [Editor's Copy](https://ietf-wg-add.github.io/draft-add-requirements/#go.draft-add-requirements.html)
-* [Individual Draft](https://tools.ietf.org/html/draft-add-requirements)
+* [Individual Draft](https://tools.ietf.org/html/draft-add-requirements) from IETF Datatracker
 * [Compare Editor's Copy to Individual Draft](https://ietf-wg-add.github.io/draft-add-requirements/#go.draft-add-requirements.diff)
 
 ## Building the Draft
+
+Document authors can build new versions as they edit using the following instructions.   
 
 Formatted text and HTML versions of the draft can be built using `make`.
 
