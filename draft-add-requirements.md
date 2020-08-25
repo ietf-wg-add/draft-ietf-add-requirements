@@ -117,7 +117,7 @@ IPv6 Router Advertisement (RA) options {{?RFC8106}}, Point-to-Point Protocol (PP
 more DNS resolver IP addresses, to be used for traditional unencrypted DNS. However it could also
 be a richer set of information.
 
-Using an encrypted resolver that is associated to the one provisioned by the network
+Using an encrypted and authenticated resolver that is associated to the one provisioned by the network
 can provide several benefits that are not possible if only unencrypted DNS is used:
 
 - Prevent other devices on the network from observing client DNS messages
