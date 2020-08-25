@@ -298,7 +298,7 @@ trusting the communication with their DNS resolver.
 Given this type of attacker, resolver discovery mechanisms must be designed carefully to not worsen a client's security or
 privacy posture. In particular, attackers must not be able to:
 
-- Redirect DNS traffic to themselves.
+- Redirect secure DNS traffic to themselves when they would not otherwise handle DNS traffic.
 
 - Override or interfere with the resolver preferences of a user or administrator.
 
@@ -373,4 +373,3 @@ from draft-pauly-add-requirements. (TODO: add names from all these sources).
 
 More contributions are required! Please consider starting a github issue, submit a pull request, or simply
 raise the topic on the ADD list.
-
