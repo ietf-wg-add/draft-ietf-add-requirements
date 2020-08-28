@@ -148,6 +148,12 @@ supports it. Discovering this may require communication with the local resolver,
 unencrypted transport. Once discovered, the local encrypted forwarder may be selected by the client, gaining the
 benefits of encryption while retaining the benefits of a local caching forwarder with knowledge of the local topology.
 
+Another benefit occurs with IoT devices. A common usage pattern for such devices is for it to "call home"
+to a service that resides on the public Internet, where that service is referenced through a domain name
+(A or AAAA record). As discussed in Manufacturer Usage Description Specification {{?RFC8520}}, because these devices
+tend to require access to very few sites, all other access should be considered suspect. However, if the query
+is not accessible for inspection, it becomes quite difficult for the infrastructure to suspect anything.
+
 | Requirement | Description |
 | R4.1 | Example requirement |
 
