@@ -105,8 +105,8 @@ These resolver upgrade mechanisms can either add new parameters to existing prov
 to communicate with a provisioned unencrypted DNS resolver and discover the equivalent or associated encrypted DNS resolver.
 
 | Requirement | Description |
-| R1.1 | There must be a mechanism for a client to learn the set of encrypted resolvers that are associated with a resolver that is known only by its IP address. |
-| R1.2 | Discovery must be possible even when the IP address is only valid locally. |
+| R1.1 | There must be a mechanism for a client to learn the set of encrypted resolvers that are associated with an unencrypted resolver. |
+| R1.2 | Discovery must be possible even when the IP address of the encrypted resolver is only valid locally. |
 | R1.3 | More to be added |
 
 ## Network-provisioned resolvers {#local-network}
