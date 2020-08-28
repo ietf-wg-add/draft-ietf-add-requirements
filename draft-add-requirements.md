@@ -159,7 +159,7 @@ is not accessible for inspection, it becomes quite difficult for the infrastruct
 
 ## Client-selected resolvers {#client-selected}
 
-Client devices often allow a user or administrator to select a specific DNS resolver to use
+Client devices often allow the device administrator to select a specific DNS resolver to use
 on certain networks, or on all networks. Historically, this selection was specified only with an
 IP address.
 
