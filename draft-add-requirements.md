@@ -98,7 +98,7 @@ A client may begin with information from the attached networks, and/or resolvers
 This information may be used to then discover one or more associated or equivalent encrypted resolvers.
 These are expected to be operated by the same entity that provides the resolver the client started with, but
 may not have identical behaviour. For example one entity may offer a set of encrypted resolvers with different levels
-of filtering or proximity.
+of filtering (none, just malware, or malware & adult content), or different proximity (local or central).
 
 These resolver upgrade mechanisms can either add new parameters to existing provisioning mechanisms
 (adding necessary information to use DoT or DoH to options in DHCP, RAs, or IKEv2) or else provide a way
