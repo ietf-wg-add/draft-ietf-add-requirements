@@ -235,6 +235,9 @@ it might be necessary to discover a local encrypted resolver along with specific
 - the network-provisioned encrypted resolver is not able to resolve local-only names, or
 - the client has a more-preferred encrypted resolver for generic traffic, and would otherwise not be able to access local content
 
+The first point can occur in a hybrid deployment, e.g. when the local resolver is unencrypted but a central one is encrypted.
+Clients choosing the encrypted resolver for most queries will need to be advised to refer to the local one for some names.
+
 This case also include accessing content specific to a home network.
 
 | Requirement | Description |
