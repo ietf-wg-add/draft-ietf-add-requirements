@@ -95,14 +95,19 @@ when, and only when, they appear in all capitals, as shown here.
 {: #first-usecase}
 # Discovery of associated resolvers
 A client may begin with information from the attached networks, and/or resolvers known from configuration.
-This information may be used to then discover one or more associated or equivalent encrypted resolvers.
-These are expected to be operated by the same entity that provides the resolver the client started with, but
-may not have identical behaviour. For example one entity may offer a set of encrypted resolvers with different levels
-of filtering (none, just malware, or malware & adult content), or different proximity (local or central).
+This information may be used to then discover one or more associated encrypted resolvers.
 
-These resolver upgrade mechanisms can either add new parameters to existing provisioning mechanisms
+Associated resolvers are defined as resolvers operated by the same entity that provides the resolver the client started with.
+Such associated resolvers may come in two forms:
+
+1. Equivalent - these provide DNS responses that are identical to the ones served by the unencrypted resolver.
+2. Alternative - these serve different responses to some queries. For example one entity may offer a set of encrypted resolvers with different levels of filtering (none, just malware, or malware & adult content), or different proximity (local or central).
+
+The client may wish to select an equivalent associated resolver, or select one of the alternatives.
+
+Designs for resolver upgrade mechanisms can either add new parameters to existing provisioning mechanisms
 (for example, adding necessary information to use DoT or DoH to options in DHCP, RAs, or IKEv2) or else provide a way
-to communicate with a provisioned unencrypted DNS resolver and discover the equivalent or associated encrypted DNS resolver.
+to communicate with a provisioned unencrypted DNS resolver and discover the associated encrypted DNS resolvers.
 
 | Requirement | Description |
 | R1.1 | There must be a mechanism for a client to learn the set of encrypted resolvers that are associated with an unencrypted resolver. |
