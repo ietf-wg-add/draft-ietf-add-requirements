@@ -191,9 +191,8 @@ This can provide several benefits:
 - Verify that answers come from the selected DNS resolver
 - Authenticate that the DNS resolver is the one selected by the client
 
-In doing so it is critical that the new resolver provides the same semantics as the original
-unencrypted one. Switching to one that provides different answers would break the expectation
-of the user who previously selected that resolver.
+In doing so it is critical that the new resolver is an equivalent resolver. Switching to a non-equivalent
+alternative resolver would break the expectation of the user who previously selected that resolver.
 
 
 | Requirement | Description |
