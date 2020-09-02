@@ -108,7 +108,8 @@ Alternative associated resolver: An associated resolver that serves different re
 
 # Discovery of associated resolvers {#associated}
 
-A client may begin with information from the attached networks, and/or resolvers known from configuration.
+A client may begin with information about unencrypted resolvers from the attached networks ({{local-network}}),
+and/or unencrypted resolvers known from configuration ({{client-selected}}).
 This information may be used to then discover one or more associated encrypted resolvers.
 
 Associated resolvers are defined as resolvers operated by the same entity that provides the resolver the client started with.
