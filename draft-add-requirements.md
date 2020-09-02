@@ -77,7 +77,7 @@ for discovering DNS resolvers that support encrypted transports, and lists requi
 selection mechanisms should address. They can do this either by providing a solution, or by explicitly stating why it
 is not in scope.
 
-Use cases are described between {{first-usecase}} and {{last-usecase}}.
+Use cases are described between {{associated}} and {{cdn-content}}.
 Each use case contains a narrative and a set of requirements that apply in that case.
 There are additional common requirements in {{priv-sec}}.
 Each requirement is identified as "Ra.b" where a is the group number and b is the number within that group.
@@ -85,15 +85,29 @@ Both a and b are integers starting with 1.
 
 A summary of all requirements in listed in {{requirements-summary}}.
 
-# Conventions and Definitions
+## Requirements Language
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
 document are to be interpreted as described in BCP 14 {{RFC2119}} {{!RFC8174}}
 when, and only when, they appear in all capitals, as shown here.
 
-{: #first-usecase}
-# Discovery of associated resolvers
+# Terminology
+
+This document makes use of the following terms.
+
+Encrypted DNS: DNS-over-HTTPS {{?RFC8484}}, DNS-over-TLS {{?RFC7858}}, or any other encrypted DNS technology that
+the IETF may publish, such as DNS-over-QUIC {{?I-D.ietf-dprive-dnsoquic}}.
+
+Associated resolver: A resolver operated by the same entity that provides the resolver the client started with. See {{associated}}.
+
+Equivalent associated resolver: An associated resolver that provides DNS responses that are identical to the ones served by the original unencrypted resolver.
+
+Alternative associated resolver: An associated resolver that serves different responses to some queries; see {{associated}} for examples.
+
+
+# Discovery of associated resolvers {#associated}
+
 A client may begin with information from the attached networks, and/or resolvers known from configuration.
 This information may be used to then discover one or more associated encrypted resolvers.
 
@@ -272,7 +286,6 @@ for private names on a publicly accessible server, while still limiting the visi
 | Requirement | Description |
 | R11.1 | Example requirement |
 
-{: #last-usecase}
 ## Encrypted resolvers for content providers {#cdn-content}
 
 Content Delivery Networks (CDNs), and content-providers more broadly, can also provide encrypted DNS resolvers that can
