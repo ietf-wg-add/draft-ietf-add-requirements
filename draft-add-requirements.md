@@ -145,7 +145,7 @@ can provide several benefits that are not possible if only unencrypted DNS is us
 - Authenticate that the DNS resolver is the one provisioned by the network
 
 Frequently, network-provisioned resolvers are forwarders running on a local router. The discovered
-encrypted resolvers in these cases may either be local fowarders themselves, or an associated
+encrypted resolvers in these cases may either be local forwarders themselves, or an associated
 resolver that is in the network (thus bypassing the router's DNS forwarder).
 
 | Requirement | Description |
