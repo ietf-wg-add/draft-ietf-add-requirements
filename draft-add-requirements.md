@@ -224,7 +224,7 @@ Wi-Fi network might be able to access both the Internet and a private intranet. 
 domains managed by the enterprise might only be resolvable using a specific DNS resolver.
 
 Discovering an encrypted resolver for a subset of names allows a client to perform Split DNS while maintaining
-the benefits of encrypted DNS. For example, a client could use a client-selected encrypted resolver for most
+the benefits of encrypted DNS. For example, a client could use a client-selected encrypted resolver for public
 domains, but use a different encrypted resolver for enterprise-private domains.
 
 Such domain-specific resolver discovery mechanisms additionally need to provide some information about
