@@ -77,57 +77,99 @@ for discovering DNS resolvers that support encrypted transports, and lists requi
 selection mechanisms should address. They can do this either by providing a solution, or by explicitly stating why it
 is not in scope.
 
-Use cases are described between {{associated}} and {{cdn-content}}.
+Use cases are structured as follows:
+Section {{associated}} describes use cases where discovery of resolvers is performed via initial resolver that has been configured. 
+The motivation is essentially to leverage the existing provisioning of unencrypted resolvers and to enable DNS clients to upgrade to encrypted resolvers. 
+Such resolvers are likely associated to the initially configured/provisioned resolver and as such belong to a given administrative domain which limits the horizon of the discovery. 
+
+Section {{direct}} describes use cases where the discovery of a set of resolvers is performed directly, that is without the setting of a initial resolver ( encyrpted or unencrypted). Such discovery may result from configuration or performed opportunistically or may involve new signaling. 
+
+The process of discovering consists in collecting multiple instances of resolvers, that will go though a selection process.
+The selection process is not in scope of this document and the selection may result in the selection of a single or multiple resolvers.
+However, the selection can only occurs when appropriated information is collected. Base don the use cases, the section {{ information }} describes appropriated information that needs to be associated to the resolvers.
+
+<!--
+Use cases are described between {{first-usecase}} and {{last-usecase}}.
 Each use case contains a narrative and a set of requirements that apply in that case.
 There are additional common requirements in {{priv-sec}}.
 Each requirement is identified as "Ra.b" where a is the group number and b is the number within that group.
 Both a and b are integers starting with 1.
+-->
 
 A summary of all requirements in listed in {{requirements-summary}}.
 
-## Requirements Language
+# Conventions and Definitions
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
 document are to be interpreted as described in BCP 14 {{RFC2119}} {{!RFC8174}}
 when, and only when, they appear in all capitals, as shown here.
 
-# Terminology
-
-This document makes use of the following terms.
-
-Encrypted DNS: DNS-over-HTTPS {{?RFC8484}}, DNS-over-TLS {{?RFC7858}}, or any other encrypted DNS technology that
-the IETF may publish, such as DNS-over-QUIC {{?I-D.ietf-dprive-dnsoquic}}.
-
-Associated resolver: A resolver operated by the same entity that provides the resolver the client started with. See {{associated}}.
-
-Equivalent associated resolver: An associated resolver that provides DNS responses that are identical to the ones served by the original unencrypted resolver.
-
-Alternative associated resolver: An associated resolver that serves different responses to some queries; see {{associated}} for examples.
-
+<!-- {: #first-usecase}-->
 
 # Discovery of associated resolvers {#associated}
-
-A client may begin with information about unencrypted resolvers from the attached networks ({{local-network}}),
-and/or unencrypted resolvers known from configuration ({{client-selected}}).
+A client may begin with information from the attached networks, and/or resolvers known from configuration.
 This information may be used to then discover one or more associated encrypted resolvers.
 
-Associated resolvers are defined as resolvers operated by the same entity that provides the resolver the client started with.
+Associated resolvers are defined as resolvers operated by the same entity or administrative domain that provides the resolver the client started with.
 Such associated resolvers may come in two forms:
 
-1. Equivalent - these provide DNS responses that are identical to the ones served by the unencrypted resolver.
+<!-- I do not see the need to specify the resolver is unencrypted. It seesm to me that Equivalent and Alternative applies to encrypted resolvers as well.
+It is also difficult to define that responses are "identical"
+-->
+1. Equivalent - resolver a is equivalent to resolver B if an only if DNS responses received from resolver A and resolver B have the same behavior.
 2. Alternative - these serve different responses to some queries. For example one entity may offer a set of encrypted resolvers with different levels of filtering (none, just malware, or malware & adult content), or different proximity (local or central).
 
-The client may wish to select an equivalent associated resolver, or select one of the alternatives.
+The client may wish to select one or multiple equivalent associated resolver, and / or select one or multiple of the alternatives.
+
+<!-- it seems to me that providing directly the encrypted version with new signaling is a bit outside teh purpose of discovering alternate resolvers from an existing one. 
 
 Designs for resolver upgrade mechanisms can either add new parameters to existing provisioning mechanisms
 (for example, adding necessary information to use DoT or DoH to options in DHCP, RAs, or IKEv2) or else provide a way
 to communicate with a provisioned unencrypted DNS resolver and discover the associated encrypted DNS resolvers.
+-->
 
-| Requirement | Description |
+
+<!--
+I suggest the following additional requirements:
+
+I suggested R1.1 also considered the discovery of resolvers or absence of of these resolvers.
+"associated" is reflexive, symmetric and transitive, so the discovery should apply in my opinion with any instance of the class, and in our case encrypted or unencrypted resolver.
+Maybe we can also turn the existence of the mechanisms into a property the discovery mechanisms ( or protocol) has.
+So here are the changes I propose on R1.1
+
+OLD:
+There must be a mechanism for a client to learn the set of encrypted resolvers that are associated with an unencrypted resolver.
+
+NEW:
+Discovery MUST provide a client to learn the set or absence of associated from any instance of resolver.
+
+I see R1.2 as reflecting the fact that the information that initiate the discover may beof local scope information. I think we may not restrict the information to a local IP address but to any local information that may include a local scope name ( home.arpa) for example.
+I am also not quite sure R1.2 has a nit with encrypted resolver. So unless I am reading R1.2 in a wrong way I would write is as:
+
+R1.2: When Discovery is instantiated from an resolver that resolver MAY be encrypted or not and MAY be globally or locally reachable.
 | R1.1 | There must be a mechanism for a client to learn the set of encrypted resolvers that are associated with an unencrypted resolver. |
 | R1.2 | Discovery must be possible even when the IP address of the encrypted resolver is only valid locally. |
-| R1.3 | More to be added |
+| R1.3 | The discovery MAY be triggered by unsecured existing and well deployed information, but information related to the associated resolvers MUST be authenticated.    |
+-->
+
+The discovery from a initial resolver instance is impacted by:
+* the channel by which that initial instance has been configured. Typically, this instance may have been configured via a trusted and secure channel (IKEv2) or via unsecured means such as DHCP, RA for example. 
+* the initial resolver may support unencrypted DNS and/or encrypted DNS. Note that the current state of the art does not consider the case where only encrypted DNS is supported.
+* the initial resolver MAY be reachable via a local or global IP address.
+* the initial resolver MAY have a limited scope. It may only serve certain DNS clients with certain IP addresses, as well as certain FQDN. 
+
+The various use cases combines these limitations which should not prevent the discovery of associated to be performed. 
+
+The discovery of associated resolvers comes with the following generic requirements:
+
+| Requirement | Description |
+| R1.1. | Discovery MUST provide a client to learn the set or absence of associated resolver from any instance of resolver. |
+| R1.2 | Discovery of associated resolver MUST provides some bounding evidence between at least the two associated resolvers |
+| R1.3  | When Discovery is instantiated from an resolver, that resolver MAY be encrypted or not and MAY be globally or locally reachable. |
+| R1.4 | When multiple associated resolvers are provided, the operator SHOULD be able to provide a preference on which resolvers are preferred |
+| R 1.5 | the client MUST be able to determine the scope as well as necessary connectivity parameters associated to a specific resolver.  |
+| R.1.6 | the presence of specific services associated to a resolver SHOULD be indicated by the operator |
 
 ## Network-provisioned resolvers {#local-network}
 
@@ -140,28 +182,66 @@ be a richer set of information.
 Using an encrypted and authenticated resolver that is associated to the one provisioned by the network
 can provide several benefits that are not possible if only unencrypted DNS is used:
 
+<!--
+I understand that authenticate that the DNS resolver.... is performed during the TLS handshake while DNS answers are coming after the handshake. Maybe it might ease the reading to place in a different order. At least, bullet 2 and 3 may be exchanged.
+-->
+
 - Prevent other devices on the network from observing client DNS messages
-- Verify that answers come from the selected DNS resolver
 - Authenticate that the DNS resolver is the one provisioned by the network
+- Verify that answers come from the selected DNS resolver
 
+### Homenet and private enterprise name use case
+
+Private networks such as enterprises or home networks generally provide resolution services that handle both the resolutions of the global DNS as well as resolution of internal names. 
+
+From a client perspective it is hard to determine whether the resolving service is instantiate by a resolver or a forwarder. 
+In the case of a resolver, upon receiving a DNS request, the resolver will perform the resolution on the internal domain or on the global internet. 
+In the case of a forwarder, the request may be forwarded to resolver and as such work as an intermediary node. 
+
+It is also important to note that the use of an encrypted DNS with a forwarder of the resolver traffic upstream to the forwarder of resolver is likely to be in clear text. 
 Frequently, network-provisioned resolvers are forwarders running on a local router. The discovered
-encrypted resolvers in these cases may either be local fowarders themselves, or an associated
+encrypted resolvers in these cases may either be local forwarders themselves, or an associated
 resolver that is in the network (thus bypassing the router's DNS forwarder).
+These site resolvers are mandatory to resolve internal names such as internal.example.com, .local, home.arpa.... 
 
-| Requirement | Description |
-| R2.1 | Example requirement |
+<!-- I am leaving the section title unencrypted and encrypted, but we may decide to remove these subsubsections title as well -->
 
 ### Unencrypted forwarder
 
 If the resolver announced by the network is a classic unencrypted forwarder, it is frequently the case that such
-forwarders are difficult to upgrade to support encrypted operation. In such cases it is useful for the resolver
+forwarders are difficult to upgrade to support encrypted operation. 
+In this case, the internal DNS traffic cannot be encrypted.
+
+The best that can be achieved is that resolution that can be performed by another encrypted resolver.
+The next upstream local network that is the as close as possible to the site local resolver is the resolver provided by the ISP. 
+In the case of a forwarder, both resolvers are equivalent and even equal. 
+
+The main challenge of discovery is that site local resolvers are likely to use site local IP addresses which is provisioned to client in an unsecure way.
+
+
+| Requirement | Description |
+| R2.1 |  The client MUST be able to retrieve the resolver of the upstream ISP. 
+| R2.2 | Resolver MUST provide some information of which traffic can be resolved so the client can determine which resolvers are eligible to a given DNS query |
+| R2.3 | The client MUST be able to bound the information to the connectivity provider or site-local |
+| R2.4 | An (upstream ISP) MUST be able to announce the support of ( encrypted ) resolver DNS service and this information MUST be accessed throughout the forwarder |
+| R2.5 | The client SHOULD be able to determine the scope of the site-local.
+Note that the determination of which traffic is eligible to one resolver is also subject to the client's interpretation as local scope FQDN MAY be served at any level in the network. 
+Similarly split views makes some domains eligible at multiple level as well.|  
+
+<!-- 
+
+In such cases it is useful for the resolver
 provider to be able to declare which encrypted resolvers they provide, and for the client to be able to discover
-them. If the client wishes to, it can then use one of those resolvers and bypass the local forwarder.
+them.
+
+
+If the client wishes to, it can then use one of those resolvers and bypass the local forwarder.
 
 | Requirement | Description |
 | R3.1 | Example requirement |
+ -->
 
-### Encrypted forwarder
+#### Encrypted forwarder
 
 If a subset of local resolvers supports encrypted DNS, the client may not initially be aware that its local resolver
 supports it. Discovering this may require communication with the local resolver, or an upstream resolver, over an
@@ -174,10 +254,14 @@ to a service that resides on the public Internet, where that service is referenc
 tend to require access to very few sites, all other access should be considered suspect. However, if the query
 is not accessible for inspection, it becomes quite difficult for the infrastructure to suspect anything.
 
+<!-- it seems to me that R2.x includes those associated to the use encrypted forwarder case. --> 
+<!--
 | Requirement | Description |
 | R4.1 | Example requirement |
+-->
 
-## Client-selected resolvers {#client-selected}
+
+### Client-selected resolvers {#client-selected}
 
 Client devices often allow the device administrator to select a specific DNS resolver to use
 on certain networks, or on all networks. Historically, this selection was specified only with an
@@ -191,14 +275,22 @@ This can provide several benefits:
 - Verify that answers come from the selected DNS resolver
 - Authenticate that the DNS resolver is the one selected by the client
 
-In doing so it is critical that the new resolver is an equivalent resolver. Switching to a non-equivalent
-alternative resolver would break the expectation of the user who previously selected that resolver.
+In doing so it is critical that the new resolver provides the same semantics as the original
+unencrypted one. Switching to one that provides different answers would break the expectation
+of the user who previously selected that resolver.
 
+The main difference between this use case and the Homenet and private enterprise name use case are:
+* It is assumed the client has configured the information of the initial resolver and as such that information is considered as trusted as opposed as received via an unprotected mechanism. This relaxes R2.3.  
+* The resolver is usually on the Internet which makes it non eligible for the resolution that are site local scope. While the scope of the resolver is known the client, the client still needs to learn what the site local scope are cf R2.5.  This however relaxes R2.3. 
+* Similarly these resolvers are usually on the internet and so the network proximity aspects do not apply which relaxes R2.1 and R2.4.
 
+<!--
 | Requirement | Description |
 | R5.1 | Example requirement |
+-->
 
-## VPN resolvers {#vpn}
+
+### VPN resolvers {#vpn}
 
 Virtual Private Networks (VPNs) also can provision DNS resolvers. In addition to being able to use
 DHCP or RAs, VPNs can provision DNS information in an explicit configuration message. For example,
@@ -211,10 +303,13 @@ Discovering an encrypted resolver that is provisioned by a VPN can provide the s
 as doing so for a local network, but applied to the private network. When using Split DNS, it becomes
 possible to use one encrypted resolver for private domains, and another for other domains.
 
-
+This use is very similar to  the use case and the Homenet and private enterprise name use case. This only difference is that when IKEv2 is used the communication of the initial resolver has more trusted then it has when carried over non secured channels. 
+<!--
 | Requirement | Description |
 | R6.1 | Example requirement |
+-->
 
+<!--
 
 # Discovery of limited domain resolvers
 
@@ -286,7 +381,42 @@ for private names on a publicly accessible server, while still limiting the visi
 | Requirement | Description |
 | R11.1 | Example requirement |
 
-## Encrypted resolvers for content providers {#cdn-content}
+-->
+
+
+# Direct Discovery {#direct}
+
+While section {{associated}} describes use cases where the discovery is initiated from an existing configuration setting or an existing infrastructure, this section considers use cases where the existence of alternate resolvers is performed though explicit and specific signalling. 
+
+The main advantage of having a direct or explicit signalling is that the necessary inputs are provided in order to optimize the discovery and may address use cases that are not based on a pre-configured resolver.
+
+Generic requirement for newly proposed mechanism are as follows:
+
+| Requirement | Description |
+| RXX.1 | Discovery mechanisms MUST NOT be disruptive for the legacy DNS client or infrastructure |
+| RXX.2 | The resolver operator MUST make explicitly available the scope associated to the resolver, the necessary connectivity informations and SHOULD make explicitly any sort of information that MAY be used during the selection process. Information associated to the resolver are expected to evolve over time.  |
+| RXX.3 | When multiple resolver are provided the operator MUST be able to indicate a preference |
+| RXX.4 | Any information provided MUST be bound to the identity of the source providing the information as well as to the resolver itself. |
+
+
+## Network configured resolvers
+
+Traditional network provisioning may consider adding necessary information to use DoT or DoH to options in DHCP, RAs, or IKEv2)
+
+
+## Enabling third parties to define subsets of Trusted resolvers
+
+A client may hardly be able to select which resolvers are trusted and might delegate such selection to a third party. 
+
+## Opportunist discovery 
+
+A client MAY learn appropriated resolver while browsing. In such cases, it remains crucial the resolvers clearly indicates the scope associated to the resolver as it might be limited. 
+
+It should be clear from the client perspective for a given domain if there is a clear advantage to use one resolver over a general purpose resolver. 
+In other words, if a resolver has a "special relation" - such as serving of being authoritative for example.com - that should be clearly provided to the client.
+
+
+### Encrypted resolvers for content providers {#cdn-content}
 
 Content Delivery Networks (CDNs), and content-providers more broadly, can also provide encrypted DNS resolvers that can
 be used by clients over the public Internet. These resolvers can either allow resolution of all public names (like
@@ -300,8 +430,23 @@ Using a content-provider's encrypted resolver can also provide several privacy a
 - Verify that answers come from the entity that manages the domains being resolved
 - Reduce the number of entities able to monitor the specific names accessed by a client to only the client and the content provider, assuming that the content provider would already see the names upon a secure connection later being made based on the DNS answers (e.g., in the TLS SNI extension)
 
+However doing so can create other issues. (To be described)
+
 | Requirement | Description |
 | R12.1 | Example requirement |
+
+
+### Web browsing
+
+
+# Information {#information}
+
+## Scope 
+
+* served client IPs
+* served FQDN ( global resolution , private resolution, hosting web servers/authoritative...) 
+
+
 
 # Privacy and security requirements {#priv-sec}
 
