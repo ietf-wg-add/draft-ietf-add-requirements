@@ -402,7 +402,7 @@ This document has no IANA actions.
 {:numbered="false"}
 
 This document was started based on contributions during the ADD meeting of IETF108, on the list, and
-from draft-pauly-add-requirements. (TODO: add names from all these sources).
+from draft-pauly-add-requirements.
 
 More contributions are required! Please consider starting a github issue, submit a pull request, or simply
 raise the topic on the ADD list.
