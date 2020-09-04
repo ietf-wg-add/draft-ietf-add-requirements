@@ -127,7 +127,6 @@ to communicate with a provisioned unencrypted DNS resolver and discover the asso
 | Requirement | Description |
 | R1.1 | There must be a mechanism for a client to learn the set of encrypted resolvers that are associated with an unencrypted resolver. |
 | R1.2 | Discovery must be possible even when the IP address of the encrypted resolver is only valid locally. |
-| R1.3 | More to be added |
 
 ## Network-provisioned resolvers {#local-network}
 
