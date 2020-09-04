@@ -336,6 +336,14 @@ content provider being accessed, or a server that the client has manually config
 Beyond these requirements, standards describing resolver discovery mechanisms must not place any requirements
 on clients to select particular resolvers over others.
 
+When discovering DNS resolvers on a local network, clients have no mechanism to distinguish between cases 
+where an active attacker with the above capabilities is interfering with discovery, and situations wherein 
+the network has no encrypted resolver. Absent such a mechanism, an attacker can always succeed in these
+goals. Therefore, in such circumstances, viable solutions for local DNS resolver discovery should consider 
+weaker attackers, such as those with only passive eavesdropping capabilities. It is unknown whether such
+relaxations represent a realistic attacker in practice. Thus, local discovery solutions designed around
+this threat model may have limited value.
+
 ## On opportunistic encryption
 
 Opportunistic encrypted DNS, when the client cannot authenticate the entity that provides encrypted DNS, does
