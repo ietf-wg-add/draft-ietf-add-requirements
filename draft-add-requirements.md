@@ -305,7 +305,7 @@ Using a content-provider's encrypted resolver can also provide several privacy a
 
 # Privacy and security requirements {#priv-sec}
 
-Encrypted DNS improves the privacy and security of DNS queries and answers in the presence of malicious
+Encrypted (and authenticated) DNS improves the privacy and security of DNS queries and answers in the presence of malicious
 attackers. Such attackers are assumed to interfere with or otherwise impede DNS traffic and corresponding
 discovery mechanisms. They may be on-path or off-path between the client and entities with which the client
 communicates {{?RFC3552}}. These attackers can inject, tamper, or otherwise interfere with traffic as needed.
