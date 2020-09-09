@@ -67,7 +67,7 @@ Several protocols for protecting DNS traffic with encrypted transports have been
 such as DNS-over-TLS (DoT) {{?RFC7858}} and DNS-over-HTTPS (DoH) {{?RFC8484}}.
 Encrypted DNS can provide many security and privacy benefits for network clients.
 
-While it is possible for clients to hard-code encrypted DNS resolvers to use, dynamic
+While it is possible for clients to statically configure encrypted DNS resolvers to use, dynamic
 discovery and provisioning of encrypted resolvers can expand the usefulness and
 applicability of encrypted DNS to many more use cases.
 
