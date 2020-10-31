@@ -150,8 +150,9 @@ announce an equivalent resolver using only existing widely-deployed DNS features
 
 ## Verification of equivalence
 
-For resolver-identified claims, it is desirable that there is a method of verifying that the claimed-equivalent Encrypted DNS resolver is operated by the same administrative domain as the Do53 resolver. In the subset of cases
-where the two operate at the same IP address, this is not required.
+For resolver-identified claims, it is desirable that there is a method of verifying that the claimed-equivalent Encrypted DNS resolver
+is operated by the same administrative domain as the Do53 resolver. In the subset of cases
+where the two operate at the same IP address, the equivalence can be more easily determined.
 
 For network-identified encrypted resolvers, at present the discovery process needs to accept the client's
 existing trust of unauthenticated network information, assume that it is valid, and proceed from there.
@@ -165,12 +166,9 @@ or unique local addresses. To support the discovery of Encrypted DNS in these en
 the discovery process to work from a locally-addressed Do53 resolver to an Encrypted DNS resolver that is accessible
 either at the same (local) address, or at a different global address. Both options need to be supported.
 
-In either case the resolver would offer a TLS certificate proving ownership of a name. This name should be
-meaningful to the end user, conveying the identity of the resolver operator, but given the lack of network
-authentication it does not currently seem possible to mandate a requirement that the name has to match anything
-else the client knows. It is not generally possible to obtain a TLS certificate proving ownership of a locally-scoped
-IP address, so discovery should not require this.
-
+An encrypted DNS resolver can offer a TLS certificate proving ownership of a name, but it is important to note that
+this name (or any associated address) is often not sufficient to prove that an Encrypted DNS resolver is equivalent
+to a Do53 resolver.
 
 # Network-identified encrypted resolvers
 
@@ -282,27 +280,18 @@ This section lists requirements that flow from the above sections.
 | R1.4 | Discovery SHOULD support working-group adopted drafts for encrypted DNS, such as DNS-over-QUIC {{?I-D.ietf-dprive-dnsoquic}}. |
 | R1.5 | In an ISP network the upstream ISP MUST be able to announce the support of encrypted DNS service and this information MUST be available via a query sent to a local network forwarder. |
 | R1.6 | This discovery MUST NOT require software features that cannot be found in existing widely deployed DNS forwarders. |
-| R2.1 | Networks using DHCP MUST be able to announce one or more equivalent encrypted DNS resolvers. |
-| R2.2 | Networks using IPv6 Router Advertisement MUST be able to announce one or more equivalent encrypted DNS resolvers. |
-| R2.3 | Networks using Point-to-Point Protocol MUST be able to announce one or more equivalent encrypted DNS resolvers. |
-| R2.4 | There SHOULD be liaison with 3GPP to allow Protocol Configuration Options, or similar mechanism, to be able to announce one or more equivalent encrypted DNS resolvers. |
+| R2.1 | Networks using MUST be able to announce one or more equivalent encrypted DNS resolvers using existing mechanisms such as DHCP, IPv6 Router Advertisement, and the Point-to-Point Protocol. The format for resolver information MUST be specified such that provisioning mechanisms defined outside of the IETF can advertise encrypted DNS resolvers. |
 | R3.1 | When discovery is instantiated from a resolver, that resolver MAY be encrypted or not. |
 | R3.2 | When discovery is instantiated from a resolver, that resolver MAY be locally or globally reachable. Both options MUST be supported. |
 | R3.3 | Discovery of an encrypted resolver identified by another resolver SHOULD obtain some evidence that the two resolvers are operated by the same administrative domain. |
-| R3.4 | Where the two resolvers operate at the same IP address, this is considered sufficient evidence. |
-| R4.1 | Discovery SHOULD NOT require the TLS certificates of encrypted DNS resolvers to state their IP address. |
-| R4.2 | When multiple resolvers are provided the operator SHOULD be able to indicate a preference. |
-| R4.3 | Discovery MAY rely on probing one or more well-known ports at the same IP address as the Do53 resolver in order to learn whether this capability exists, but this is OPTIONAL. |
-| R5.1 | Discovery MUST NOT worsen a client's security or privacy posture. |
-| R5.2 | Threat modelling SHOULD assume that there is *no* active attacker on the local network. |
-| R5.3 | Threat modelling MUST assume that there is a passive eavesdropping attacker on the local network. |
-| R5.4 | Threat modelling MUST assume that this attacker can actively attack from outside the local network. |
-| R5.5 | Attackers MUST NOT be able to redirect secure DNS traffic to themselves when they would not otherwise handle DNS traffic. |
-| R5.6 | Attackers MUST NOT be able to override or interfere with the resolver preferences of a user or administrator. |
-| R5.7 | Attackers MUST NOT be able to cause clients to use a discovered resolver which has no authenticated delegation from a client-known entity. |
-| R5.8 | Attackers MUST NOT be able to influence automatic discovery mechanisms such that a client uses one or more resolvers that are not otherwise involved with providing service to the client, including a network provider, a VPN server, a content provider being accessed, or a server that the client has manually configured. |
-| R5.9 | Discovery MUST NOT place any requirements on clients to select particular resolvers over others. |
-
+| R4.1 | Discovery MUST NOT worsen a client's security or privacy posture. |
+| R4.2 | Threat modelling MUST assume that there is a passive eavesdropping attacker on the local network. |
+| R4.3 | Threat modelling MUST assume that this attacker can actively attack from outside the local network. |
+| R4.4 | Attackers MUST NOT be able to redirect secure DNS traffic to themselves when they would not otherwise handle DNS traffic. |
+| R4.5 | Attackers MUST NOT be able to override or interfere with the resolver preferences of a user or administrator. |
+| R4.6 | Attackers MUST NOT be able to cause clients to use a discovered resolver which has no authenticated delegation from a client-known entity. |
+| R4.7 | Attackers MUST NOT be able to influence automatic discovery mechanisms such that a client uses one or more resolvers that are not otherwise involved with providing service to the client, including a network provider, a VPN server, a content provider being accessed, or a server that the client has manually configured. |
+| R4.8 | Discovery MUST NOT place any requirements on clients to select particular resolvers over others. |
 
 # Security Considerations
 
