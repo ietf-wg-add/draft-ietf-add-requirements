@@ -278,15 +278,15 @@ This section lists requirements that flow from the above sections.
 | R1.2 | Discovery MUST support DNS-over-TLS {{?RFC7858}}. |
 | R1.3 | Discovery MUST support DNS-over-HTTPS {{?RFC8484}}. |
 | R1.4 | Discovery SHOULD support working-group adopted drafts for encrypted DNS, such as DNS-over-QUIC {{?I-D.ietf-dprive-dnsoquic}}. |
-| R1.5 | In an ISP network the upstream ISP MUST be able to announce the support of encrypted DNS service and this information MUST be available via a query sent to a local network forwarder. |
+| R1.5 | The ISP network MUST be able to announce the support of encrypted DNS service. In a home network use case, if the local network forwarder does not offer encrypted DNS service, the ISP's encrypted DNS server information MUST be retrievable via a query sent to a local network forwarder. |
 | R1.6 | This discovery MUST NOT require software features that cannot be found in existing widely deployed DNS forwarders. |
-| R2.1 | Networks using MUST be able to announce one or more equivalent encrypted DNS resolvers using existing mechanisms such as DHCP, IPv6 Router Advertisement, and the Point-to-Point Protocol. The format for resolver information MUST be specified such that provisioning mechanisms defined outside of the IETF can advertise encrypted DNS resolvers. |
+| R2.1 | Networks using MUST be able to announce one or more equivalent encrypted DNS resolvers using existing mechanisms such as DHCPv4, DHCPv6, IPv6 Router Advertisement, and the Point-to-Point Protocol. The format for resolver information MUST be specified such that provisioning mechanisms defined outside of the IETF can advertise encrypted DNS resolvers. |
 | R3.1 | When discovery is instantiated from a resolver, that resolver MAY be encrypted or not. |
 | R3.2 | When discovery is instantiated from a resolver, that resolver MAY be locally or globally reachable. Both options MUST be supported. |
 | R3.3 | Discovery of an encrypted resolver identified by another resolver SHOULD obtain some evidence that the two resolvers are operated by the same administrative domain. |
 | R4.1 | Discovery MUST NOT worsen a client's security or privacy posture. |
 | R4.2 | Threat modelling MUST assume that there is a passive eavesdropping attacker on the local network. |
-| R4.3 | Threat modelling MUST assume that this attacker can actively attack from outside the local network. |
+| R4.3 | Threat modelling MUST assume that an attacker can actively attack from outside the local network. |
 | R4.4 | Attackers MUST NOT be able to redirect secure DNS traffic to themselves when they would not otherwise handle DNS traffic. |
 | R4.5 | Attackers MUST NOT be able to override or interfere with the resolver preferences of a user or administrator. |
 | R4.6 | Attackers MUST NOT be able to cause clients to use a discovered resolver which has no authenticated delegation from a client-known entity. |
