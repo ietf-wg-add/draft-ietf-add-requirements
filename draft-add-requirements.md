@@ -82,9 +82,11 @@ provisioning of encrypted resolvers can expand the usefulness and applicability 
 
 The Adaptive DNS Discovery (ADD) Working Group is chartered to define mechanisms that allow clients to automatically
 discover and select encrypted DNS resolvers in a wide variety of network environments.
-This document describes one common use case, that of discovering the encrypted DNS resolver that corresponds to
-the Do53 resolver offered by a network. It lists requirements that any proposed discovery mechanisms should address.
+This document currently focusses on one common use case, that of discovering the encrypted DNS resolver that corresponds to
+the Do53 resolver offered by a network. Additional use cases can be added in future versions.
+As well as describing the use case, it lists requirements that any proposed discovery mechanisms should address.
 They can do this either by providing a solution, or by explicitly stating why it is not in scope.
+
 
 ## Requirements language
 
