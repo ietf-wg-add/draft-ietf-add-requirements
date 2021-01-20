@@ -2,6 +2,7 @@
 
 ## Defining local-only namespaces
 * Express namespaces which only this resolver can resolve
+    * Authoritatively if the namespace collides with global namespaces
 * Ex 1: Enterprise resolvers serving corporation-specific namespaces
 * Ex 2: Public Wi-Fi or cellular networks offering network-local services
 
@@ -24,4 +25,4 @@
 * Ex 2: Which encryption protocols are supported
     * DoH and DoT, DoT only, etc.
     * Should be extensible to accommodate future protocols
-* Ex 3: Requires some form of client identity confirmation
+* Ex 3: Access-controlled resolvers describing their properties outside of access control
