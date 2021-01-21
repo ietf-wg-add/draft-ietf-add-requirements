@@ -29,6 +29,8 @@ Authors:
 * Solicit feedback on scope and requirements
 * Gauge interest in possible next steps for the WG
 * Proceed with proper requirements drafts where there is interest
+* Support compliance and compatibility with other IETF standards
+  - e.g. [Unknown RR types](https://tools.ietf.org/html/rfc3597), [DNSSEC](https://tools.ietf.org/html/rfc4035), [Extended DNS Errors](https://tools.ietf.org/html/draft-ietf-dnsop-extended-error)
 ----
 # Non-goals
 
