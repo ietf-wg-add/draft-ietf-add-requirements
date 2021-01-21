@@ -20,6 +20,8 @@
 ## Defining protocol support
 * Express what optional DNS-related functionality is supported 
 * Ex 1: DNS Extended Errors and which codes to expect
+      * Not exhaustive: server can still return any code
+      * Codes 15-17 indicate kinds of filtering the resolver implements
 * Ex 2: Which encryption protocols are supported
     * DoH and DoT, DoT only, etc.
     * Should be extensible to accommodate future protocols
