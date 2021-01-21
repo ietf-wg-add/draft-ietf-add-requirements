@@ -8,7 +8,7 @@
 
 * Standardized discovery mechanism for BYOD and IoT devices.
 * Discover local names to use Enterprise DNS server (similar to split DNS configuration in IKEv2)
-   - Discover if the Enterprise network allows split DNS configuration
+   - Discover if the Enterprise network offers a split DNS configuration
 * Secure Discovery of Enterprise DNS server 
     - Bootstrapping Remote Secure Key Infrastructures (BRSKI) discussed in ANIMA WG for IoT devices.
     - Leverage existing secure discovery mechanisms like IKEv2 for VPN
