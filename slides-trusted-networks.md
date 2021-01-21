@@ -1,8 +1,8 @@
 #DNS configuration on explicitly trusted networks
 
 * Client can authenticate the identity of the network (or pre-existing relationship with the network)
-* BYOD devices joining Enterprise network without any MDM and configuration profile (e.g., using EAP-pwd, EAP-PSK).
-* IoT devices joining Enterprise network without a device management tool
+    - BYOD devices joining Enterprise network without any MDM and configuration profile (e.g., using EAP-pwd, EAP-PSK).
+    - IoT devices joining Enterprise network without a device management tool
 
 #Goals
 
