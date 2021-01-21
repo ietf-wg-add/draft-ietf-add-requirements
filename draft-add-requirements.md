@@ -144,7 +144,7 @@ is designated by the network it has joined.
 Designation is the process by which a local network or a resolver can point clients towards a particular set of encrypted resolvers.
 This set can be empty, or it can list the contact details (such as DoH URI Template) of encrypted DNS resolvers that it recommends.
 It is not required that there be any relationship between the resolvers in the set, simply that all of them are options that the
-designator asserts are safe and appropriate for the client to use.
+designator asserts are safe and appropriate for the client to use without user intervention.
 
 There are two possible sources of designation.
 
@@ -314,4 +314,3 @@ on the list, and with text from draft-pauly-add-requirements. In particular this
 from Martin Thomson, Eric Rescorla, Tommy Jensen, Ben Schwartz, Paul Hoffman, Ralf Weber, Michael Richardson,
 Mohamed Boucadair, Sanjay Mishra, Jim Reid, Neil Cook, Nic Leymann, Andrew Campling, Eric Orth, Ted Hardie,
 Paul Vixie, Vittorio Bertola, and Vinny Parla.
-
