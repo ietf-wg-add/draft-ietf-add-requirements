@@ -207,7 +207,8 @@ of a local caching resolver with knowledge of the local topology.
 Clients will be aware when the designated resolver has the same IP address as the Do53 (after looking up its name if required). They
 can use this information in their decision-making as to the level of trust to place in the designated resolver.
 In some networks it will not be possible to deploy encrypted DNS on the same IP address, e.g. because of the increased
-resource requirements of encrypted DNS. Discovery solutions should work in the presence of a change of address.
+resource requirements of encrypted DNS. Discovery solutions should work in the presence of a change to a different
+local IP address.
 
 An additional benefit of using a local resolver occurs with IoT devices. A common usage pattern for such devices
 is for it to "call home" to a service that resides on the public Internet, where that service is referenced through a
