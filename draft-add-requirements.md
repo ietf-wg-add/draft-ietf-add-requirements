@@ -286,7 +286,7 @@ This section lists requirements that flow from the above sections.
 | R2.1 | Networks SHOULD be able to announce one or more designated encrypted DNS resolvers using existing mechanisms such as DHCPv4, DHCPv6, IPv6 Router Advertisement, and the Point-to-Point Protocol. |
 | R2.2 | The format for resolver designation SHOULD be specified such that provisioning mechanisms defined outside of the IETF can advertise encrypted DNS resolvers. |
 | R2.3 | This format SHOULD convey, at minimum, the information the client needs to make contact with each designated resolver. |
-| R2.4 | This format MAY convey more information. |
+| R2.4 | This format MAY convey additional resolver information. |
 | R3.1 | When discovery is instantiated from a resolver (R1.2), that resolver MAY be encrypted or not. |
 | R3.2 | When discovery is instantiated from a resolver (R1.2), that resolver MAY be locally or globally reachable. Both options SHOULD be supported. |
 | R4.1 | In a home network use case, if the local network resolver is a forwarder that does not offer encrypted DNS service, an upstream encrypted resolver SHOULD be retrievable via queries sent to that forwarder. |
