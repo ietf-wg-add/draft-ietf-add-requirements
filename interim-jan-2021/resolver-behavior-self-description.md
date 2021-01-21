@@ -9,15 +9,13 @@
 ## Defining per-namespace optimization
 * Express namespaces for which this resolver provides preferable resolutions
 * Ex 1: ISP routes public content requests to network caches
-* Ex 2: Cellular provider charges less for content from specific servers
-* Ex 3: Public resolver designated to serve a namespace to limit parties privy to resolution
+* Ex 2: Public resolver designated to serve a namespace to limit parties privy to resolution
 
-## Defining answer modification behavior
-* Express how query answers are modified by the resolver (but not necessarily _why_)
-* Ex 1: Will not resolve names breaching resolver policy 
-    * May or may not define applicable namespaces
-* Ex 2: Will drop specific record types
-    * Helps client distinguish errors from by-design failures
+## Defining resolver identity
+* Express information consumable by humans describing the resolver's identity
+* Ex 1: Provide human-legible documentation
+    * Most likely a web page link to explain server identity, terms of use, etc.
+	* Not used for decision making by any protocol peer; communicated to clients for display to users
 
 ## Defining protocol support
 * Express what optional DNS-related functionality is supported 
@@ -25,4 +23,6 @@
 * Ex 2: Which encryption protocols are supported
     * DoH and DoT, DoT only, etc.
     * Should be extensible to accommodate future protocols
-* Ex 3: Access-controlled resolvers describing their properties outside of access control
+* Ex 3: Extensible mechanism for indicating optional resolver behavior
+    * Supported record types, will it refuse QTYPE=ANY, etc.
+* Ex 4: Access-controlled resolvers describing their properties outside of access control
