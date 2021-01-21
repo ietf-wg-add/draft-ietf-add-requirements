@@ -289,7 +289,7 @@ This section lists requirements that flow from the above sections.
 | R2.4 | This format MAY convey additional resolver information. |
 | R3.1 | In resolver-identified designation (R1.2), the communication with the designator MAY be encrypted or not, depending on the capability of the resolver. |
 | R3.2 | In resolver-identified designation (R1.2), that resolver MAY be locally or globally reachable. Both options SHOULD be supported. |
-| R4.1 | In a home network use case, if the local network resolver is a forwarder that does not offer encrypted DNS service, an upstream encrypted resolver SHOULD be retrievable via queries sent to that forwarder. |
+| R4.1 | If the local network resolver is a forwarder that does not offer encrypted DNS service, an upstream encrypted resolver SHOULD be retrievable via queries sent to that forwarder. |
 | R4.2 | Achieving requirement 4.1 SHOULD NOT require any changes to DNS forwarders hosted on non-upgradable legacy network devices. |
 | R5.1 | Discovery MUST NOT worsen a client's security or privacy posture. |
 | R5.2 | Threat modelling MUST assume that there is a passive eavesdropping attacker on the local network. |
