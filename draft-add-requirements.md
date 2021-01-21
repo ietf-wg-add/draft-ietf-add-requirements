@@ -172,7 +172,8 @@ may be possible to verify that the designation comes from an entity who already 
 queries. It would be beneficial to extend this to defend against attackers that have only transient control of such queries.
 
 Clients may also seek to validate the identity of the designated resolver, beyond what is required by the relevant
-protocol. In general, clients may impose arbitrary additional requirements and heuristics as they see fit.
+protocol. Authors of solution specifications should be aware that clients may impose arbitrary additional
+requirements and heuristics as they see fit.
 
 
 ## Network-identified designated resolvers
