@@ -37,6 +37,6 @@ Authors:
 * Requiring the WG to solve all three scenarios
 * Taking control away from the client
 * Communicating policy
-  - Resolvers indicate behavior, not policy
+  - Resolvers indicate their own behavior, not policies to impose on the client
   - Resolver selection is always left to the client
   - Policies of a managed device are controlled by the administrator
