@@ -166,15 +166,18 @@ either at the same (local) address, or at a different global address. Both optio
 ## Use of designation information
 
 After the client receives designation information, it must come to a decision on whether and when to use any of the
-designated resolvers. To support this process, it would be advantageous for a solution to enable the client to validate
-the source of the assertion in some way. For example for both network-identified and resolver-identified designation, it
-may be possible to verify that the designation comes from an entity who already has full control of the client's Do53
-queries. It would be beneficial to extend this to defend against attackers that have only transient control of such queries.
+designated resolvers. 
+
+In the case of resolver-identified designation, it would be advantageous for a solution to enable the client to
+validate the source of the assertion in some way. For example it may be possible to verify that the designation
+comes from an entity who already has full control of the client's Do53 queries. Network-identified designation should
+not require this, unless the network-identified resolver in turn initiated a new resolver-identified designation.
+It would be beneficial to extend such a verification process to defend against attackers that have only transient
+control of such queries.
 
 Clients may also seek to validate the identity of the designated resolver, beyond what is required by the relevant
 protocol. Authors of solution specifications should be aware that clients may impose arbitrary additional
 requirements and heuristics as they see fit.
-
 
 ## Network-identified designated resolvers
 
