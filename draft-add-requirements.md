@@ -113,7 +113,7 @@ Designated: See {{designation}}.
 Designator: The network or resolver that issued the designation.
 
 
-# Overall use case
+# Use case description
 
 It is often the case that a client possesses no specific configuration for how to operate DNS, and at some point
 joins a network that it cannot authenticate. It may have no prior knowledge of the network, or it may have connected
