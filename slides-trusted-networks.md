@@ -1,6 +1,6 @@
 #DNS configuration on explicitly trusted networks
 
-* Client can authenticate the identity of the network (or pre-existing relationship with the network)
+* Client can authenticate the identity of the network (or pre-existing relationship with the network) and the user has authorized the client to override local DNS settings for a specific network.
     - BYOD devices joining Enterprise network without any MDM and configuration profile (e.g., using EAP-pwd, EAP-PSK).
     - IoT devices joining Enterprise network without a device management tool
 
