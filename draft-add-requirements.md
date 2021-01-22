@@ -284,7 +284,7 @@ This section lists requirements that flow from the above sections.
 | Requirement | Description |
 | R1.1 | Discovery SHOULD provide a local network the ability to announce to clients a set of, or absence of, designated resolvers. |
 | R1.2 | Discovery SHOULD provide a resolver the ability to announce to clients a set of, or absence of, designated resolvers. |
-| R1.3 | Discovery SHOULD support all standardised encrypted DNS protocols. |
+| R1.3 | Discovery SHOULD support all encrypted DNS protocols standardised by the IETF. |
 | R2.1 | Networks SHOULD be able to announce one or more designated encrypted DNS resolvers using existing mechanisms such as DHCPv4, DHCPv6, IPv6 Router Advertisement, and the Point-to-Point Protocol. |
 | R2.2 | The format for resolver designation SHOULD be specified such that provisioning mechanisms defined outside of the IETF can advertise encrypted DNS resolvers. |
 | R2.3 | This format SHOULD convey, at minimum, the information the client needs to make contact with each designated resolver. |
