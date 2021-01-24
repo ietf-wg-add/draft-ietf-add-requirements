@@ -118,11 +118,11 @@ Designator: The network or resolver that issued the designation.
 It is often the case that a client possesses no specific configuration for how to operate DNS, and at some point
 joins a network that it cannot authenticate. It may have no prior knowledge of the network, or it may have connected
 previously to a network that looked the same. In either case the usual behaviour, because of lack of specific
-configuration, is to dynamically discover the network's recommended Do53 resolver and use it. This long-standing practice
+configuration, is to dynamically discover the network's designated Do53 resolver and use it. This long-standing practice
 works in nearly all networks, but presents a number of privacy and security risks that were the motivation for the
 development of encrypted DNS.
 
-The network's recommended Do53 resolver may have a number of properties that differ from a generic resolver.
+The network's designated Do53 resolver may have a number of properties that differ from a generic resolver.
 It may be able to answer names that are not known globally, it may exclude some names (for positive or negative
 reasons), and it may provide address answers that have improved proximity. In this use case it is assumed that
 the user who chose to join this network would also like to make use of these properties of the network's unencrypted resolver,
@@ -134,15 +134,20 @@ Using an encrypted and authenticated resolver can provide several benefits that 
 - Authenticate that the DNS resolver is the correct one
 - Verify that answers come from the selected DNS resolver
 
-To meet this case there should be a means by which the client can learn how to contact an encrypted DNS resolver that
-is designated by the network it has joined.
+To meet this case there should be a means by which the client can learn how to contact a set of encrypted DNS resolvers that
+are designated by the network it has joined.
 
 
 {: #designation}
 ## Designation 
 
-Designation is the process by which a local network or a resolver can point clients towards a particular set of encrypted resolvers.
-This set can be empty, or it can list the contact details (such as DoH URI Template) of encrypted DNS resolvers that it recommends.
+Designation is the process by which a local network or a resolver can point clients towards a particular set of resolvers.
+This is not a new concept, as networks have been able to dynamically designate Do53 resolvers for decades (see {{network}}).
+However here we extend the concept in two ways:
+* To allow resolvers to designate other resolvers
+* The inclusion of support for encrypted DNS
+
+The designated set could be empty, or it could list the contact details (such as DoH URI Template) of DNS resolvers that it recommends.
 It is not required that there be any relationship between the resolvers in the set, simply that all of them are options that the
 designator asserts are safe and appropriate for the client to use without user intervention.
 
@@ -179,6 +184,7 @@ Clients may also seek to validate the identity of the designated resolver, beyon
 protocol. Authors of solution specifications should be aware that clients may impose arbitrary additional
 requirements and heuristics as they see fit.
 
+{: #network}
 ## Network-identified designated resolvers
 
 DNS servers are often provisioned by a network as part of DHCP options {{?RFC2132}},
@@ -193,8 +199,8 @@ upstream, or on the public Internet.
 ## Resolver-identified designated resolvers
 
 To support cases where the network is unable to identify an encrypted resolver, it should be possible to learn
-the details of one or more designated encrypted DNS resolvers by communicating with the network-recommended
-unencrypted Do53 resolver. This should involve an exchange that uses standard DNS messages that can be
+the details of one or more designated encrypted DNS resolvers by communicating with the network's designated
+Do53 resolver. This should involve an exchange that uses standard DNS messages that can be
 handled, or forwarded, by existing deployed software.
 
 Each resolver in the set may be at a different network location, which leads to several subcases for the mapping from Do53
@@ -233,7 +239,7 @@ or reactively ("I don't know the answer to that, but your local Do53 should know
 
 ### Public to public
 
-In cases where the local network has recommended a Do53 resolver on the public Internet, this resolver may designate its
+In cases where the local network has designated a Do53 resolver on the public Internet, this resolver may designate its
 own or another public encrypted DNS service. Since public IP addresses may appear in TLS certificates, solutions may
 use this as one way to validate that the designated encrypted resolver is legitimately associated with the original Do53.
 
