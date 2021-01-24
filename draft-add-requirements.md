@@ -144,6 +144,7 @@ are designated by the network it has joined.
 Designation is the process by which a local network or a resolver can point clients towards a particular set of resolvers.
 This is not a new concept, as networks have been able to dynamically designate Do53 resolvers for decades (see {{network}}).
 However here we extend the concept in two ways:
+
 * To allow resolvers to designate other resolvers
 * The inclusion of support for encrypted DNS
 
