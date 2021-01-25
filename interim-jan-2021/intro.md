@@ -16,7 +16,7 @@ Authors:
 * draft-box-add-requirements-02 describes what we need to upgrade from unencrypted to encrypted, in an untrusted network.
 * DEER and draft-btw-add-home suggest mechanisms for part of this space.
 * What's next for ADD?
-* In these slides: three scenarios beyond simple upgrade, with proposed requirements
+* In these slides: three scenarios beyond simple designation, with proposed requirements
 ----
 # Three scenarios
 
