@@ -25,6 +25,6 @@ Three Parties:
 * Defending against a malicious or inept publisher
 * Defending against a malicious or inept resolver
 * Support for extremely long lists (e.g. >1000 resolvers)
-* Resolvers that are restricted to a subset of names (e.g. one CDN)
+* Combining multiple resolvers that are not sufficient independently
 * Grouping related resolvers
 * Enable connection without use of a bootstrap resolver
