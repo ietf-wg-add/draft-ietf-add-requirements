@@ -8,7 +8,7 @@ Three Parties:
 # Example use cases
 
 * A browser vendor wants to provide users with a list of resolvers to consider, curated by a trusted third party
-* An OS vendor wants to ensure that its list of trusted resolvers stays current without requiring a software update
+* An OS vendor wants to keep its list of trusted resolvers current without requiring a software update
 * A user wants to choose a resolver from a list offered by a network operator who they trust
 ------------------------------------------------
 # Requirements
