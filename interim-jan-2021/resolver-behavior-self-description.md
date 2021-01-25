@@ -2,7 +2,7 @@
 
 ## Defining local-only namespaces
 * Express namespaces which only this resolver can resolve
-    * Authoritatively if the namespace collides with global namespaces
+    * Authoritatively if the namespace collides with any global names
 * Ex 1: Enterprise resolvers serving corporation-specific namespaces
 * Ex 2: Public Wi-Fi or cellular networks offering network-local services
 
