@@ -16,6 +16,7 @@ Three Parties:
 * A list can be published by a trusted network
 * A list can be published at an HTTP URL
 * Each resolver controls its own self-description
+* Provides optional non-repudiability for the publisher
 * Suitable for use in an onscreen interactive menu
 * Can be used as an additional safeguard for untrusted upgrade instructions
 * Uses the same protocols as the previous scenarios
