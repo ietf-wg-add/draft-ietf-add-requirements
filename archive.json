@@ -1,0 +1,3255 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2020-11-15T00:07:20.298784+00:00",
+  "repo": "ietf-wg-add/draft-add-requirements",
+  "labels": [
+    {
+      "name": "design",
+      "description": "",
+      "color": "1d76db"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "editorial",
+      "description": "",
+      "color": "41d366"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "out of scope",
+      "description": "Out of scope of the WG Charter",
+      "color": "e99695"
+    },
+    {
+      "name": "parked",
+      "description": "Recorded but not being worked on",
+      "color": "f9d0c4"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "repository",
+      "description": "Issues related to the Github repository.",
+      "color": "1d76db"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "MDU6SXNzdWU2ODQyMTUwMDY=",
+      "title": "Setup weekly-digest mailer ",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/1",
+      "state": "CLOSED",
+      "author": "gitnnelg",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [
+        "gitnnelg"
+      ],
+      "labels": [
+        "repository"
+      ],
+      "body": "Setup https://github.com/abhijeetps/weekly-digest/blob/master/docs/configuration.md?installation_id=11404206&setup_action=install to send weekly notices. ",
+      "createdAt": "2020-08-23T16:35:34Z",
+      "updatedAt": "2020-11-14T23:25:59Z",
+      "closedAt": "2020-11-14T23:25:59Z",
+      "comments": [
+        {
+          "author": "gitnnelg",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "setup - config is in .github/weekly-digest.yml",
+          "createdAt": "2020-08-23T16:36:12Z",
+          "updatedAt": "2020-08-23T16:36:12Z"
+        },
+        {
+          "author": "gitnnelg",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Not working",
+          "createdAt": "2020-09-02T22:48:10Z",
+          "updatedAt": "2020-09-02T22:48:10Z"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "MDU6SXNzdWU2OTIxMjA3MDI=",
+      "title": "Requirements needed in Discovery of Associated Resolvers (section 3)",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/4",
+      "state": "CLOSED",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [
+        "chris-box"
+      ],
+      "labels": [
+        "design"
+      ],
+      "body": "At the moment we only have R1.1 and R1.2.",
+      "createdAt": "2020-09-03T16:39:35Z",
+      "updatedAt": "2020-11-06T18:28:50Z",
+      "closedAt": "2020-11-06T18:28:50Z",
+      "comments": [
+        {
+          "author": "JoGSal",
+          "authorAssociation": "NONE",
+          "body": "R1.3 There must be a mechanism to authenticate the entity that provides the discovered encrypted DNS resolvers\r\nR1.4 There must be a mechanism for a user to signal to the client how to choose between equivalent and alternative resolvers. ",
+          "createdAt": "2020-10-02T01:33:31Z",
+          "updatedAt": "2020-10-16T23:40:25Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Thanks for the good contribution, but as it relates to the former scope which contained alternative resolvers, I'll close this. When a wider scope is resumed in the future something similar may be needed.",
+          "createdAt": "2020-11-06T18:28:50Z",
+          "updatedAt": "2020-11-06T18:28:50Z"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "MDU6SXNzdWU2OTIxMjEzMzI=",
+      "title": "Requirements needed in Discovery of Limited Domain Resolvers (section 4)",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/5",
+      "state": "CLOSED",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [
+        "chris-box"
+      ],
+      "labels": [
+        "design"
+      ],
+      "body": "",
+      "createdAt": "2020-09-03T16:40:41Z",
+      "updatedAt": "2020-11-06T18:29:34Z",
+      "closedAt": "2020-11-06T18:29:34Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Currently descoped.",
+          "createdAt": "2020-11-06T18:29:34Z",
+          "updatedAt": "2020-11-06T18:29:34Z"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "MDU6SXNzdWU2OTIxMjE4NzM=",
+      "title": "Requirements needed in Privacy and Security (section 5)",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/6",
+      "state": "CLOSED",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "",
+      "createdAt": "2020-09-03T16:41:35Z",
+      "updatedAt": "2020-11-06T18:30:23Z",
+      "closedAt": "2020-11-06T18:30:22Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Populated in draft -01.",
+          "createdAt": "2020-11-06T18:30:22Z",
+          "updatedAt": "2020-11-06T18:30:22Z"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "MDU6SXNzdWU2OTIxMjM3MzM=",
+      "title": "Not proving that a local network doesn't have an encrypted resolver",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/7",
+      "state": "OPEN",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "On the thread, we discussed limiting the capabilities of this attacker to not worry about proving that a local network doesn't have an encrypted resolver, etc. Chris Wood, can you help here?\r\n\r\n_Originally posted by @tfpauly in https://github.com/ietf-wg-add/draft-add-requirements/pull/2#discussion_r476591219_",
+      "createdAt": "2020-09-03T16:44:43Z",
+      "updatedAt": "2020-09-03T16:46:47Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Tiru said: An on-path attacker typically will not be always present in the network; the client can remember that a network-provided encrypted resolver is provided by the network (e.g., store the certificate fingerprint or authentication domain name associated with SSID:BSSID). If the endpoint cannot discover the network-provided resolver when it re-attaches to the network, it can assume an attacker blocked the discovery.",
+          "createdAt": "2020-09-03T16:46:47Z",
+          "updatedAt": "2020-09-03T16:46:47Z"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "MDU6SXNzdWU2OTIxMjY3MDE=",
+      "title": "Define what is meant by \u201cauthenticated\u201d",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/8",
+      "state": "OPEN",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "I\u2019m suggesting that the aspect of \u201cauthenticated\u201d be expanded, discussed, and explained as it does potentially have different notions in different readers perspectives.\r\n\r\nFor example some may say doing a DNSSEC validation of some sort is what is needed, or perhaps some form of PKI, or is it a TLS certificate validation, or mutual exchange?   It might even be something as basic as asking special DNS queries and validating the answers received against expectations.\r\n\r\nAnother slice would be authenticating the actual resolver chosen or is it authenticated at the more abstract \u201cservice\u201d provided by the operator of the resolver?\r\n\r\nThere is also the consideration of does the authentication means/level vary depending on different environmental threat levels?\r\n\r\nThe bottom line is there is a lot of meanings behind \u201cauthentication\u201d and what is being authenticated to declare and discuss as a requirement.\r\n\r\n-glenn\r\n\r\n_Originally posted by @gitnnelg in https://github.com/ietf-wg-add/draft-add-requirements/pull/2#issuecomment-680215555_",
+      "createdAt": "2020-09-03T16:49:44Z",
+      "updatedAt": "2020-10-16T23:52:11Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Tiru also commented \"Several possible ways of authenticating the encrypted DNS server are already discussed in our spec https://tools.ietf.org/html/rfc8310#section-8. I don't think the requirements draft should discuss the possible modes of authenticating the server.\"",
+          "createdAt": "2020-09-03T17:56:40Z",
+          "updatedAt": "2020-09-03T17:56:40Z"
+        },
+        {
+          "author": "magicalo",
+          "authorAssociation": "NONE",
+          "body": "agree - _authentication_ can include mutual authentication",
+          "createdAt": "2020-09-26T15:15:14Z",
+          "updatedAt": "2020-09-26T15:15:14Z"
+        },
+        {
+          "author": "JoGSal",
+          "authorAssociation": "NONE",
+          "body": "+1 to different means/level depending on environment.\r\nI think mandatory should be validation of resolver designation through any of the 4 methods described in draft-pauly-add-resolver-discovery (validation using DNSSEC / PvD file / file on a well-known HTTPS URI based on zone apex / TLS certificates).\r\nThen the actual resolver chosen and their ownership over the encrypted services, similar to what's on [Google's policy](https://docs.google.com/document/d/128i2YTV2C7T6Gr3I-81zlQ-_Lprnsp24qzy_20Z1Psw/edit) , then client authentication for use-cases like the enterprise network\r\n",
+          "createdAt": "2020-10-16T23:52:11Z",
+          "updatedAt": "2020-10-16T23:52:11Z"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "MDU6SXNzdWU2OTIxMjk4NDE=",
+      "title": "Feasibility of requiring the protocol to prove that the encrypted and unencrypted resolvers are operated by the same entity",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/9",
+      "state": "CLOSED",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "How does the client learn the encrypted and unencrypted DNS servers are operated by the same administrative domain ?\r\nThe client can authenticate the encrypted DNS servers but cannot authenticate the unencrypted DNS server !\r\n\r\n_Originally posted by @tireddy2 in https://github.com/ietf-wg-add/draft-add-requirements/pull/2#discussion_r479894603_",
+      "createdAt": "2020-09-03T16:54:52Z",
+      "updatedAt": "2020-11-06T18:33:43Z",
+      "closedAt": "2020-11-06T18:33:43Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "If it is genuinely impossible to prove association between two resolvers when one resolver is unencrypted, then perhaps we should not have the concept at all. But I'm hoping it is not impossible.",
+          "createdAt": "2020-09-03T16:56:54Z",
+          "updatedAt": "2020-09-03T16:56:54Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "draft-pauly-add-deer-00 does this (at least in some circumstances), so it's not impossible.",
+          "createdAt": "2020-11-06T18:33:42Z",
+          "updatedAt": "2020-11-06T18:33:42Z"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "MDU6SXNzdWU2OTIxNTk3NzQ=",
+      "title": "Explain home network deployment scenario",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/10",
+      "state": "OPEN",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "enhancement"
+      ],
+      "body": "This use case is true from a Home network deployment scenario where several homes may have legacy routers or un-managed routers whose config/firmware cannot be upgraded but not in a typical Enterprise deployment. \r\n\r\nIt is good to explain the deployment scenario.\r\n\r\n_Originally posted by @tireddy2 in https://github.com/ietf-wg-add/draft-add-requirements/pull/2#discussion_r477102311_",
+      "createdAt": "2020-09-03T17:46:39Z",
+      "updatedAt": "2020-09-03T17:47:18Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 11,
+      "id": "MDU6SXNzdWU2OTIxNjIwMzk=",
+      "title": "Import use case description from draft-btw-add-ipsecme-ike-00",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/11",
+      "state": "CLOSED",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "enhancement"
+      ],
+      "body": "You can use the text from https://tools.ietf.org/html/draft-btw-add-ipsecme-ike-00#section-3 to discuss the use cases.\r\n\r\n_Originally posted by @tireddy2 in https://github.com/ietf-wg-add/draft-add-requirements/pull/2#discussion_r477108036_",
+      "createdAt": "2020-09-03T17:50:29Z",
+      "updatedAt": "2020-11-06T18:35:45Z",
+      "closedAt": "2020-11-06T18:35:45Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "This is for the VPN Resolvers section.",
+          "createdAt": "2020-09-03T17:50:52Z",
+          "updatedAt": "2020-09-03T17:50:52Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "VPNs are (for the moment) descoped. If/when they are added back in, we can reopen.",
+          "createdAt": "2020-11-06T18:35:45Z",
+          "updatedAt": "2020-11-06T18:35:45Z"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "MDU6SXNzdWU2OTIxNjQ2ODQ=",
+      "title": "Enhance BYOD description",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/12",
+      "state": "CLOSED",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "enhancement"
+      ],
+      "body": "> \r\n> \r\n> No, I don't think that would be right.\r\n> \r\n> I don't think this case is specific to non-MDM devices. Even with MDM devices, devices aren't often configured to know which domains are privately accessible on an enterprise Wi-Fi network. Certainly MDMs could be updated going forward (which wouldn't be possible for pure BYOD cases), but that's not the status quo. Also, if we have a mechanism that works for the pure BYOD case, it wouldn't be necessary to build an MDM-specific solution.\r\n\r\nAgreed, we can say the use case is specific to \"BYOD\" without explicitly saying \"BYOD without MDM\". On a side note, MDM is a secure way of configuring endpoints and a secure mechanism will be required for pure BYOD case to be applicable to MDM. Configuration profile could be another way to securely provision the BYOD without MDM (see https://tools.ietf.org/html/draft-reddy-add-enterprise-00#section-5).\r\n\r\n_Originally posted by @tireddy2 in https://github.com/ietf-wg-add/draft-add-requirements/pull/2#discussion_r478197292_",
+      "createdAt": "2020-09-03T17:55:05Z",
+      "updatedAt": "2020-11-06T18:37:00Z",
+      "closedAt": "2020-11-06T18:37:00Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "This topic is not in the current scope of the draft, so closing for now.",
+          "createdAt": "2020-11-06T18:37:00Z",
+          "updatedAt": "2020-11-06T18:37:00Z"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "MDU6SXNzdWU2OTIxNjc5OTA=",
+      "title": "Is authentication ever not required?",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/13",
+      "state": "OPEN",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "Enterprise networks with best security practices are still susceptible to internal attacks (see https://tools.ietf.org/html/draft-arkko-farrell-arch-model-t-03). Enterprises have started migrating to \"zero trust security\" framework to encrypt all communication to minimize the threat (https://www.cloudflare.com/learning/security/glossary/what-is-zero-trust/. If internal attacks are not an issue, Enterprises would not move to using HTTPS for internal servers.\r\n\r\nI propose the following change:\r\nClients cannot assume that their network does not have such an attacker, encryption and authentication of DNS resolver is required to defend from active and passive attacks.\r\n\r\n_Originally posted by @tireddy2 in https://github.com/ietf-wg-add/draft-add-requirements/pull/2#discussion_r482914984_",
+      "createdAt": "2020-09-03T18:00:37Z",
+      "updatedAt": "2020-09-03T18:01:09Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 15,
+      "id": "MDU6SXNzdWU2OTYyNzA1NTc=",
+      "title": "Don't talk about \"hard-coding\"",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/15",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The introduction says \"hard-code\".  I think that \"static configuration\" (or \"statically configure\") is closer to the intent.",
+      "createdAt": "2020-09-09T00:08:57Z",
+      "updatedAt": "2020-09-09T08:48:19Z",
+      "closedAt": "2020-09-09T08:48:19Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I agree; change now applied.",
+          "createdAt": "2020-09-09T08:48:19Z",
+          "updatedAt": "2020-09-09T08:48:19Z"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "MDU6SXNzdWU2OTYyNzM5NzQ=",
+      "title": "Associated discovery security differences",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/16",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "design",
+        "help wanted"
+      ],
+      "body": "Two options are presented for discovering an associated resolver:\r\n\r\n1. enhance the discovery process for the resolver to provide secured options in parallel\r\n2. ask the unsecured resolver for its opinion\r\n\r\nThe draft should discuss the consequences of this choice, particularly from the perspective of security.  In the former, any exposure to attack is limited to the discovery method.  However, the latter creates a new point that needs to be secured.\r\n\r\nThis doesn't mean that either is invalid: in many cases these reduce to network operators being able to decide who answers DNS queries, but there are operational differences between securing network configuration and securing DNS resolution that are relevant in some contexts.  We at least need people to be aware of these differences.",
+      "createdAt": "2020-09-09T00:17:11Z",
+      "updatedAt": "2020-11-06T18:39:26Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Good point. Text will need to be written.\r\n\r\n\r\n",
+          "createdAt": "2020-09-09T08:55:07Z",
+          "updatedAt": "2020-09-09T08:55:07Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "This issue still needs text, but now it would refer to the difference between network-identified (1) and resolver-identified (2).",
+          "createdAt": "2020-11-06T18:39:26Z",
+          "updatedAt": "2020-11-06T18:39:26Z"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "MDU6SXNzdWU2OTYyNzgzNzY=",
+      "title": "Limit this to equivalent resolvers",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/17",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "The discussion about resolvers that provide alternative answers is a giant rathole.  We should not build a mechanism for advertising name resolution policies.  That is too complex and filled with questions of policy that are impossible to mechanically evaluate.  Strict equivalence is far simpler to reason about.\r\n\r\nThis working group isn't really chartered to deal with the myriad of reasons that resolvers might choose not to forward an answer that an authoritative server gives them.",
+      "createdAt": "2020-09-09T00:24:37Z",
+      "updatedAt": "2020-11-06T18:40:28Z",
+      "closedAt": "2020-11-06T18:40:28Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "This will certainly require discussion at the interim. In particular we need providers of more than one resolver to say why discovery of their alternatives is useful and can be implemented without descending into said rathole.",
+          "createdAt": "2020-09-09T09:04:19Z",
+          "updatedAt": "2020-09-09T09:04:19Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "The draft is now limited to equivalent resolvers.",
+          "createdAt": "2020-11-06T18:40:28Z",
+          "updatedAt": "2020-11-06T18:40:28Z"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "MDU6SXNzdWU2OTYyODU1Njk=",
+      "title": "Authenticating the network-provided resolver",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/18",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "Authentication of information presented by the network is particularly fraught.  The current treatment doesn't really address this topic very clearly.  The text even makes a bald assertion that is unattainable in many situtations, namely:\r\n\r\n> Authenticate that the DNS resolver is the one provisioned by the network\r\n\r\nThis needs to be more carefully phrased.  There are cases where it is possible for a client to authenticate the network and the configuration information it provides, but this is not universal.\r\n\r\nAny \"requirement\" here should be reduced in strength to \"desiderata\" or something weaker and more words need to be spent on explaining the limitations of any authentication.",
+      "createdAt": "2020-09-09T00:46:09Z",
+      "updatedAt": "2020-09-09T12:16:15Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "See also issue #8 ",
+          "createdAt": "2020-09-09T09:11:30Z",
+          "updatedAt": "2020-09-09T09:11:30Z"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": "MDU6SXNzdWU2OTYyODYwOTE=",
+      "title": "Unencrypted forwarders are hardly \"classic\"",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/19",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "The text on DNS forwarders needs to use established nomenclature.  Perhaps \"DNS Proxy\" as used by RFC 5625.",
+      "createdAt": "2020-09-09T00:47:43Z",
+      "updatedAt": "2020-11-09T17:31:39Z",
+      "closedAt": "2020-11-09T17:31:39Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Agree the correct terminology should be used, but I would look to RFC8499 instead. This mentions RFC5625 and observes that the RFC uses the term \"DNS Proxy\" without this being defined anywhere. RFC5625 also asserts that most such proxies do not cache, but the very commonly used dnsmasq software caches.\r\n\r\nThe terms that would appear to be valid from 8499 are \"forwarder\" and also \"stub resolver\".\r\n\r\nSo perhaps this can be resolved by changing \"classic unencrypted forwarder\" to simply \"unencrypted forwarder\"?",
+          "createdAt": "2020-09-09T09:41:56Z",
+          "updatedAt": "2020-09-09T09:41:56Z"
+        },
+        {
+          "author": "mstojens",
+          "authorAssociation": "NONE",
+          "body": "The use of \"classic DNS\" to refer to unencrypted use of the DNS protocol over TCP or UDP on port 53 came from a DNSOP discussion regarding the ridiculously long list of unique terms we were using at the time. The latest draft proposing that term alongside terms for other forms of DNS on the wire can be found here:\r\n\r\nhttps://tools.ietf.org/html/draft-ietf-dnsop-terminology-ter-02",
+          "createdAt": "2020-09-10T19:18:33Z",
+          "updatedAt": "2020-09-10T19:18:33Z"
+        },
+        {
+          "author": "JoGSal",
+          "authorAssociation": "NONE",
+          "body": "\"Do53\" seems clear and unambiguous for referring to classic/unencrypted ",
+          "createdAt": "2020-09-11T22:09:39Z",
+          "updatedAt": "2020-09-11T22:09:39Z"
+        },
+        {
+          "author": "Andrew-419",
+          "authorAssociation": "NONE",
+          "body": "Noting the above comments, perhaps \"Do53 forwarder\" would suffice? ",
+          "createdAt": "2020-09-13T19:25:57Z",
+          "updatedAt": "2020-09-13T19:25:57Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Draft -01 now uses \"Do53\" and/or \"unencrypted\", together with \"forwarder\" if that is relevant. Closing the issue for now but if the new terminology is still problematic we could reopen.",
+          "createdAt": "2020-11-09T17:31:39Z",
+          "updatedAt": "2020-11-09T17:31:39Z"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": "MDU6SXNzdWU2OTYyODY1ODU=",
+      "title": "Describe workable network topologies",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/20",
+      "state": "OPEN",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "This document does not seem to describe which topologies this is supposed to work in.\r\n\r\nTwo specific cases seem like they need attention:\r\n\r\n1. Non-upgradeable CPE provided by the carrier.\r\n2. Local non-upgradeable access point/NAT connected to the carrier-provided CPE.\r\n\r\nDo we expect that designs should work when I have a client behind each of these?",
+      "createdAt": "2020-09-09T00:49:06Z",
+      "updatedAt": "2020-09-10T13:04:12Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "It's intended that case 1 is covered by the \"Unencrypted forwarder\" section, but I agree this needs expanding. Essentially given a non-upgradable device there needs to be a way to communicate the associated encrypted resolver that only leverages basic functionality the CPE already has.\r\n\r\nCase 2 is not clear to me. A WiFi access point is a layer 2 device so should not be relevant. But do you mean a router that is performing NAT? Are you thinking of something like a smartphone personal hotspot?\r\n",
+          "createdAt": "2020-09-09T11:05:05Z",
+          "updatedAt": "2020-09-09T11:05:05Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "> Case 2 is not clear to me. A WiFi access point is a layer 2 device so should not be relevant. But do you mean a router that is performing NAT? Are you thinking of something like a smartphone personal hotspot?\r\n\r\nYes, I am assuming a NAT, which in my experience many home wireless APs are.\r\n",
+          "createdAt": "2020-09-09T11:15:28Z",
+          "updatedAt": "2020-09-09T11:15:28Z"
+        },
+        {
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "body": "Eric is referring to internal CPE (see figure 5 in https://tools.ietf.org/html/draft-btw-add-home-08#section-3.2). ",
+          "createdAt": "2020-09-09T11:36:56Z",
+          "updatedAt": "2020-09-09T11:36:56Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Ok, so case 2 includes any NAT router that is subdividing the local LAN. It's clearly not ideal having two levels of NAT, but given it seems to be prevalent I agree we should support Adaptive DNS Discovery in such an environment.",
+          "createdAt": "2020-09-09T12:36:07Z",
+          "updatedAt": "2020-09-09T12:36:07Z"
+        },
+        {
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "body": "https://docs.google.com/document/d/1a9gMyoCIiNrpHXSDIaBASF5vLPH-_KmwvLl5_GLTIo indicates it is not a prevalent deployment !\r\n",
+          "createdAt": "2020-09-10T07:28:56Z",
+          "updatedAt": "2020-09-10T07:28:56Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "This document does not seem to exist.\n\n\nOn Thu, Sep 10, 2020 at 12:29 AM Tirumaleswar Reddy <\nnotifications@github.com> wrote:\n\n>\n> https://docs.google.com/document/d/1a9gMyoCIiNrpHXSDIaBASF5vLPH-_KmwvLl5_GLTIo\n> indicates it is not a prevalent deployment !\n>\n> \u2014\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/ietf-wg-add/draft-add-requirements/issues/20#issuecomment-690047614>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AAIPLIM4XK6BFPL54JSJOGTSFB54PANCNFSM4RAW2NOQ>\n> .\n>\n",
+          "createdAt": "2020-09-10T12:55:27Z",
+          "updatedAt": "2020-09-10T12:55:27Z"
+        },
+        {
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "body": "On Thu, 10 Sep 2020 at 18:25, ekr <notifications@github.com> wrote:\n\n> This document does not seem to exist.\n>\n\nTry\nhttps://docs.google.com/document/d/1a9gMyoCIiNrpHXSDIaBASF5vLPH-_KmwvLl5_GLTIoo/\n\n\n\n>\n>\n> On Thu, Sep 10, 2020 at 12:29 AM Tirumaleswar Reddy <\n> notifications@github.com> wrote:\n>\n> >\n> >\n> https://docs.google.com/document/d/1a9gMyoCIiNrpHXSDIaBASF5vLPH-_KmwvLl5_GLTIo\n> > indicates it is not a prevalent deployment !\n> >\n> > \u2014\n> > You are receiving this because you authored the thread.\n> > Reply to this email directly, view it on GitHub\n> > <\n> https://github.com/ietf-wg-add/draft-add-requirements/issues/20#issuecomment-690047614\n> >,\n> > or unsubscribe\n> > <\n> https://github.com/notifications/unsubscribe-auth/AAIPLIM4XK6BFPL54JSJOGTSFB54PANCNFSM4RAW2NOQ\n> >\n> > .\n> >\n>\n> \u2014\n> You are receiving this because you commented.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/ietf-wg-add/draft-add-requirements/issues/20#issuecomment-690266408>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AHLV4ESPMTGKYDRNNQQAPJ3SFDEFBANCNFSM4RAW2NOQ>\n> .\n>\n",
+          "createdAt": "2020-09-10T13:01:36Z",
+          "updatedAt": "2020-09-10T13:01:36Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "This is a long document. Which section/page do you believe makes this claim?\n\nOn Thu, Sep 10, 2020 at 6:01 AM Tirumaleswar Reddy <notifications@github.com>\nwrote:\n\n> On Thu, 10 Sep 2020 at 18:25, ekr <notifications@github.com> wrote:\n>\n> > This document does not seem to exist.\n> >\n>\n> Try\n>\n> https://docs.google.com/document/d/1a9gMyoCIiNrpHXSDIaBASF5vLPH-_KmwvLl5_GLTIoo/\n>\n>\n>\n> >\n> >\n> > On Thu, Sep 10, 2020 at 12:29 AM Tirumaleswar Reddy <\n> > notifications@github.com> wrote:\n> >\n> > >\n> > >\n> >\n> https://docs.google.com/document/d/1a9gMyoCIiNrpHXSDIaBASF5vLPH-_KmwvLl5_GLTIo\n> > > indicates it is not a prevalent deployment !\n> > >\n> > > \u2014\n> > > You are receiving this because you authored the thread.\n> > > Reply to this email directly, view it on GitHub\n> > > <\n> >\n> https://github.com/ietf-wg-add/draft-add-requirements/issues/20#issuecomment-690047614\n> > >,\n> > > or unsubscribe\n> > > <\n> >\n> https://github.com/notifications/unsubscribe-auth/AAIPLIM4XK6BFPL54JSJOGTSFB54PANCNFSM4RAW2NOQ\n> > >\n> > > .\n> > >\n> >\n> > \u2014\n> > You are receiving this because you commented.\n> > Reply to this email directly, view it on GitHub\n> > <\n> https://github.com/ietf-wg-add/draft-add-requirements/issues/20#issuecomment-690266408\n> >,\n> > or unsubscribe\n> > <\n> https://github.com/notifications/unsubscribe-auth/AHLV4ESPMTGKYDRNNQQAPJ3SFDEFBANCNFSM4RAW2NOQ\n> >\n> > .\n> >\n>\n> \u2014\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/ietf-wg-add/draft-add-requirements/issues/20#issuecomment-690270279>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AAIPLIPKJGGFVUEV5EAFEZ3SFDE4FANCNFSM4RAW2NOQ>\n> .\n>\n",
+          "createdAt": "2020-09-10T13:04:12Z",
+          "updatedAt": "2020-09-10T13:04:12Z"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "id": "MDU6SXNzdWU2OTYyODczMDA=",
+      "title": "Value proposition conflict",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/21",
+      "state": "OPEN",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "The document talks about  data origin authentication:\r\n\r\n>   Verify that answers come from the selected DNS resolver\r\n\r\nBut then in S 5 concedes that maybe we have to consider only passive attackers:\r\n\r\n>    When discovering DNS resolvers on a local network, clients have no\r\n   mechanism to distinguish between cases where an active attacker with\r\n   the above capabilities is interfering with discovery, and situations\r\n   wherein the network has no encrypted resolver.  Absent such a\r\n   mechanism, an attacker can always succeed in these goals.  Therefore,\r\n   in such circumstances, viable solutions for local DNS resolver\r\n   discovery should consider weaker attackers, such as those with only\r\n   passive eavesdropping capabilities.  It is unknown whether such\r\n   relaxations represent a realistic attacker in practice.  Thus, local\r\n   discovery solutions designed around this threat model may have\r\n   limited value.\r\n\r\nBut if you have a passive-only attacker, then data origin authentication is irrelevant. Which is it?",
+      "createdAt": "2020-09-09T00:51:23Z",
+      "updatedAt": "2020-09-09T12:17:24Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 22,
+      "id": "MDU6SXNzdWU2OTYyODk0Mzk=",
+      "title": "What is the purpose of 3.1.2 \"Encrypted forwarder\"?",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/22",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "I've read this several times and I don't understand it at all.\r\n\r\nThe first paragraph seems to be a restatement of overall discovery requirement of the document.\r\n\r\nThe second paragraph seems to make an argument that accessing a local resolver that supports DoT/DoH is superior to phoning home.  That sits firmly in the domain of policy.  A device that configures itself to phone home might do so because that is what it wants.  Whatever you think about that, that is a policy decision.\r\n\r\nMy conclusion is that this section should be removed.",
+      "createdAt": "2020-09-09T00:58:01Z",
+      "updatedAt": "2020-09-13T21:38:45Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "First paragraph yes, it could be shortened.\r\n\r\nYour point on the second paragraph seems to be that MUD enforcement is policy, and making any recommendations about specific policies for clients or servers is out of scope. In that sense I agree some wording (like \"all other access should be considered suspect\") should be toned down.\r\n\r\nBut deleted altogether? How does this sit with RFC8890 which says the needs of the end users (people in the home) outweigh the needs of others, including in this case the black hat who has compromised an IoT device in that home. It should be people's needs we prioritise, not those of devices or even device manufacturers. Hence I would say we need to include support for MUD-type use cases, but certainly not mandate them.\r\n\r\n",
+          "createdAt": "2020-09-09T12:03:58Z",
+          "updatedAt": "2020-09-09T12:03:58Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "NONE",
+          "body": "I didn't make the connection to MUD at all.  Why would a device advertise a policy and then take steps to ensure that that policy couldn't be implemented?\r\n\r\nI don't think that an appeal to RFC 8890 is at all appropriate here.",
+          "createdAt": "2020-09-11T04:10:40Z",
+          "updatedAt": "2020-09-11T04:10:40Z"
+        },
+        {
+          "author": "Andrew-419",
+          "authorAssociation": "NONE",
+          "body": "I think an occasional reference to RFC 8890 is helpful in reminding us all not to get so drawn into the detail of the discussion that will lose sight of the importance of some items in meeting the needs of end users.  In the context that Chris has raised it, it does seem an appropriate consideration,    ",
+          "createdAt": "2020-09-13T21:38:45Z",
+          "updatedAt": "2020-09-13T21:38:45Z"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "id": "MDU6SXNzdWU2OTYyOTMzNzk=",
+      "title": "VPN requirements reduce to nothing",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/23",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I think that there is just one thing that merits the inclusion of the VPN section: the ability to configure a resolver for only a subset of all names.  But I don't think that introduces any requirements.  The essential choice is the same: between parallel configuration for DoT/DoH or talking to the resolver directly.\r\n\r\nIn other aspects, a VPN is just a network.  The fact that VPN configuration is often strongly authenticated doesn't distinguish it from any other type of network-provided resolver.  I would suggest that we instead acknowledge that VPNs provide another type of network access and configuration methods that might need to be accommodated by parallel discovery methods.",
+      "createdAt": "2020-09-09T01:09:01Z",
+      "updatedAt": "2020-11-09T17:37:03Z",
+      "closedAt": "2020-11-09T17:37:03Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "VPNs are now removed from the scope of draft -01.",
+          "createdAt": "2020-11-09T17:37:03Z",
+          "updatedAt": "2020-11-09T17:37:03Z"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "id": "MDU6SXNzdWU2OTYyOTg5OTQ=",
+      "title": "Usefulness of limited domains",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/24",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Section 4 contains a lot of subsections.  Leaving Section 4.2 (content providers) aside, I can't see any requirement here other than the need to recognize that clients might use a specific resolver for a limited set of names.  I think that this entire section (except 4.2) can be replaced with a sentence and *no* requirements.",
+      "createdAt": "2020-09-09T01:18:15Z",
+      "updatedAt": "2020-11-09T17:39:20Z",
+      "closedAt": "2020-11-09T17:39:20Z",
+      "comments": [
+        {
+          "author": "magicalo",
+          "authorAssociation": "NONE",
+          "body": "I think another subsection is needed similar to 4.2 that describes Recursive DNS Security Providers that behave identically to the way that  Content Providers are described in section 4.2.  The only difference being that a security function is being provided as an outcome.  Alternatively, section 4.2 can describe both CDN and DSP scenarios in a combined paragraph if that is preferred.",
+          "createdAt": "2020-09-09T02:56:53Z",
+          "updatedAt": "2020-09-09T02:59:08Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Section 4 is now removed from draft -01.",
+          "createdAt": "2020-11-09T17:39:20Z",
+          "updatedAt": "2020-11-09T17:39:20Z"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "id": "MDU6SXNzdWU2OTYzNjEwMjc=",
+      "title": "VPNs can also use DNS for routing decisions (section 3.3)",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/25",
+      "state": "CLOSED",
+      "author": "magicalo",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "In addition to scenarios described, VPNs can use DNS for making routing decisions.  So there is a scenario where VPNs need to introspect DNS traffic on both the public and private interfaces in order to make a routing decisions of that traffic.  It is unclear how that capability will continue to function.  (split include / split exclude based on domains) - also known as dynamic split tunneling.",
+      "createdAt": "2020-09-09T03:13:16Z",
+      "updatedAt": "2020-11-09T17:43:53Z",
+      "closedAt": "2020-11-09T17:43:52Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Yes I can see that dynamic split tunneling could be a problem if DNS is encrypted, unless the relevant code is running on the endpoint and has the ability to see the DNS queries before they are encrypted. But I'll close the case for now as draft -01 is simplified and doesn't now consider VPNs.",
+          "createdAt": "2020-11-09T17:43:52Z",
+          "updatedAt": "2020-11-09T17:43:52Z"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "id": "MDU6SXNzdWU2OTc5NDcyNjE=",
+      "title": "This should really be two documents",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/26",
+      "state": "CLOSED",
+      "author": "ekr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Despite the way it's phrased as \"requirements\" but really there's almost no relationship between the use cases where you want to discover which general-use resolver you might use locally (Section 3) and the use cases where you are might discover which resolvers to use for a specific domain (Section 4). It's not at all obvious that you would want to use the same technology for these. If we are to have a requirements document, we should split these into two, one for each workstream.",
+      "createdAt": "2020-09-10T13:16:51Z",
+      "updatedAt": "2020-11-09T17:51:51Z",
+      "closedAt": "2020-11-09T17:51:51Z",
+      "comments": [
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "Or maybe 3, because DNS is yet different.",
+          "createdAt": "2020-09-10T13:30:30Z",
+          "updatedAt": "2020-09-10T13:30:30Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "In addition, the security properties of these are likely to be very different, in particular because we don't know how to solve the local discovery problem with reasonable security.",
+          "createdAt": "2020-09-10T13:39:38Z",
+          "updatedAt": "2020-09-10T13:39:38Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I'm open to splitting it; let's see what further opinions we get from the working group.",
+          "createdAt": "2020-09-10T14:33:40Z",
+          "updatedAt": "2020-09-10T14:33:40Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "NONE",
+          "body": "My suggestion is to cut Section 4.  Then the document has just the most important stuff.",
+          "createdAt": "2020-09-10T14:38:15Z",
+          "updatedAt": "2020-09-10T14:38:15Z"
+        },
+        {
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I would prefer to, if we split, split 3 and 4, but keep both. There's mechanism work to do on both, and while 3 might be harder, we shouldn't not do 4.",
+          "createdAt": "2020-09-10T14:39:19Z",
+          "updatedAt": "2020-09-10T14:39:19Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "I could live with this. And then we'll need to update the security\nconsiderations to match\n\nOn Thu, Sep 10, 2020 at 7:38 AM Martin Thomson <notifications@github.com>\nwrote:\n\n> My suggestion is to cut Section 4. Then the document has just the most\n> important stuff.\n>\n> \u2014\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/ietf-wg-add/draft-add-requirements/issues/26#issuecomment-690333226>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AAIPLII547O2FM75NNHUYVDSFDQGRANCNFSM4RFA2N3A>\n> .\n>\n",
+          "createdAt": "2020-09-10T14:39:37Z",
+          "updatedAt": "2020-09-10T14:39:37Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "NONE",
+          "body": "4 as a separate document is probably fine.  Honestly, most of Section 4 seems weak to me, but 4.2 is a completely different use case that would benefit from standalone treatment.",
+          "createdAt": "2020-09-10T14:42:04Z",
+          "updatedAt": "2020-09-10T14:42:04Z"
+        },
+        {
+          "author": "Andrew-419",
+          "authorAssociation": "NONE",
+          "body": "I'm struggling to see the advantage of having separate documents versus multiple sections in a single document.  I can see advantages in the latter approach, not least of which to have a single repository for all of the use cases and associated requirements, noting that different use cases may share some of the same requirements.  ",
+          "createdAt": "2020-09-13T19:21:31Z",
+          "updatedAt": "2020-09-13T19:21:31Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "I think we should be able to gather consensus on one set of use cases and requirements, while deferring the others. That's facilitated by having separate documents.",
+          "createdAt": "2020-09-13T19:31:26Z",
+          "updatedAt": "2020-09-13T19:31:26Z"
+        },
+        {
+          "author": "Andrew-419",
+          "authorAssociation": "NONE",
+          "body": "It seems premature to be proposing to split the document without further discussion and does risk some use cases and requirements effectively being abandoned, irrespective of their importance to users.  ",
+          "createdAt": "2020-09-13T21:16:15Z",
+          "updatedAt": "2020-09-13T21:16:15Z"
+        },
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "> It seems premature to be proposing to split the document without further discussion \r\n\r\nI'm proposing it so we can discuss it.\r\n\r\n\r\n>  and does risk some use cases and requirements effectively being abandoned, irrespective of their importance to users.\r\n\r\nWhat I'm proposing is that we defer those use cases and requirements until we have addressed the first set of use cases.",
+          "createdAt": "2020-09-13T21:19:50Z",
+          "updatedAt": "2020-09-13T21:19:50Z"
+        },
+        {
+          "author": "Andrew-419",
+          "authorAssociation": "NONE",
+          "body": "It seems to me that the various types of same provider auto upgrade (ie including with DNS forwarders) are the most pressing need to be addressed.  However, it also feels important to identify the other items to include in the use case and requirements universe, even if these are to be addressed later, as well as to be clear which if any are to be excluded.  \r\n\r\nIt would be ideal for the WG to adopt a document that gives clarity on the totality of use cases to be covered, with an order of priority if necessary, rather than to only bring forward a document containing a few at first with an expectation that some others may be done later.  So on that basis I'd prefer the document to move as is rather than being split - if there is a view that some use cases should be dropped I think that it would be better to have that discussion now rather than postpone it.  ",
+          "createdAt": "2020-09-14T21:49:37Z",
+          "updatedAt": "2020-09-14T21:49:37Z"
+        },
+        {
+          "author": "nicolaileymann",
+          "authorAssociation": "NONE",
+          "body": "I think it's a good idea to start with single document describing all the requirements and use cases which will be covered. If we split the the document now I see the risk that only some of the requirements will be covered and others not (e.g. if only one the documents is moved forward). Therefore I am more in favour of having a single document as a basis and to move this document forward. Lets have the dicussion now what we want to include and what not.",
+          "createdAt": "2020-09-15T09:06:51Z",
+          "updatedAt": "2020-09-15T09:06:51Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Good arguments on both sides. I agree we do need all requirements described somewhere, but we also need small enough drafts so that are manageable and can be reasoned about. On the list Glenn proposed dividing into two or perhaps three. I tend to agree, so draft -01 is now a single use case. This does of course mean that other requirements drafts are also required. Authors of those could of course grab text from draft -00 and relevant closed issues in this repo.",
+          "createdAt": "2020-11-09T17:51:51Z",
+          "updatedAt": "2020-11-09T17:51:51Z"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "id": "MDU6SXNzdWU2OTk4MDc4MzA=",
+      "title": "Section 2. Terminology: add definition to terms",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/27",
+      "state": "CLOSED",
+      "author": "JoGSal",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Taking the definitions in context, one can assume all 3 defined resolvers refer to ones providing Encrypted DNS resolution but then the terms might need to be more explicit, i.e\r\n\r\nAssociated resolver: A resolver [providing connectivity over Encrypted DNS] operated by the same entity...\r\nEquivalent associated resolver: An associated resolver that provides [Encrypted] DNS responses...\r\nAlternative associated resolver: An associated resolver [using Encrypted transports] that serves different responses...",
+      "createdAt": "2020-09-11T22:20:41Z",
+      "updatedAt": "2020-11-09T17:55:30Z",
+      "closedAt": "2020-11-09T17:55:30Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Draft -01 now uses different definitions, but it's still a good question as to whether equivalent resolvers are always encrypted, or whether they could be unencrypted too. If the new draft's wording is not good enough then I suggest to start a new issue based around that text.",
+          "createdAt": "2020-11-09T17:55:30Z",
+          "updatedAt": "2020-11-09T17:55:30Z"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "id": "MDU6SXNzdWU3MjM1OTE1NDE=",
+      "title": "Section 3.2: Add to listed benefits",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/28",
+      "state": "OPEN",
+      "author": "JoGSal",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "This can provide several benefits:\r\n\r\n- Validate meaningful user choice where the client's preferred option is enforced through selection mechanisms.",
+      "createdAt": "2020-10-16T23:56:43Z",
+      "updatedAt": "2020-11-09T18:05:21Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "First time I read this I didn't spot that this was section 3.2, i.e. client-selected resolvers.\r\n\r\nI still don't understand what you mean by \"client's preferred option is enforced through selection mechanisms\" though. Please could you provide an example?",
+          "createdAt": "2020-11-09T17:59:12Z",
+          "updatedAt": "2020-11-09T18:05:21Z"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "id": "MDU6SXNzdWU3MjM1OTI3MDM=",
+      "title": "Section 3.2: Add to Requirements",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/29",
+      "state": "CLOSED",
+      "author": "JoGSal",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "- R5.1 If the same entity counts with encrypted services, the Selection mechanisms should default to them.\r\n- R5.2 If no equivalent resolvers are available from the same entity, a disclaimer should be provided to the user where their consent is requested in order to use alternative encrypted resolvers, as user understanding and meaningful choice are vital in this scenario.\r\n- R5.3 A set of rules and standards should be defined for the listing of available resolvers, such as confirming ownership over the encrypted DNS services (google's policy), and maintaining a minimum standard of data handling and management policies (mozilla's policy)\r\n",
+      "createdAt": "2020-10-17T00:01:42Z",
+      "updatedAt": "2020-11-09T18:03:01Z",
+      "closedAt": "2020-11-09T18:03:01Z",
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Thanks for the contribution to the \"Client-selected resolvers\" case. It seems a good start to me. However I'll close the issue as it's no longer in scope of the simplified single use case (draft -01). It would still be useful as part of another document though.",
+          "createdAt": "2020-11-09T18:03:01Z",
+          "updatedAt": "2020-11-09T18:03:01Z"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "id": "MDU6SXNzdWU3MjM1OTM2NDU=",
+      "title": "Section 5: Clarification",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/30",
+      "state": "OPEN",
+      "author": "JoGSal",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The section says:\r\n\"attackers must not be able to: (...) Influence automatic discovery mechanisms such that a client uses one or more resolvers that are not otherwise involved with providing service to the client, such as: (...) a server that the client has manually configured.\"\r\n\r\nWhat is the precise implication for manually configured servers by the client?",
+      "createdAt": "2020-10-17T00:05:10Z",
+      "updatedAt": "2020-11-09T18:11:18Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I take this to mean an encrypted DNS server that the user of the client has manually configured, e.g. in browser settings. If my co-authors agree with that interpretation, then you could say it duplicates the second point (\"Override or interfere with the resolver preferences of a user or administrator.\")",
+          "createdAt": "2020-11-09T18:11:18Z",
+          "updatedAt": "2020-11-09T18:11:18Z"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "id": "MDU6SXNzdWU3MzkyNTUzNjE=",
+      "title": "Limit encrypted DNS protocols to those defined by IETF",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/issues/32",
+      "state": "OPEN",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "design"
+      ],
+      "body": "     | R1.4        | Discovery SHOULD support all standardised  encrypted DNS protocols.  |\r\n\r\nIt was pointed out that this should be limited to IETF-standardised encrypted DNS protocols rather than potentially including DNSCrypt and being very open-ended.\r\n",
+      "createdAt": "2020-11-09T18:18:51Z",
+      "updatedAt": "2020-11-09T18:18:51Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 2,
+      "id": "MDExOlB1bGxSZXF1ZXN0NDczMzE5MzIz",
+      "title": "Proposal for how text from draft-pauly-add-requirements is merged into this one",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/pull/2",
+      "state": "MERGED",
+      "author": "chris-box",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Authors, please comment.",
+      "createdAt": "2020-08-25T16:24:28Z",
+      "updatedAt": "2020-11-02T18:50:27Z",
+      "baseRepository": "ietf-wg-add/draft-add-requirements",
+      "baseRefName": "master",
+      "baseRefOid": "b176bbd2f37e1177fcb73191b41aafd6d2815a40",
+      "headRepository": "ietf-wg-add/draft-add-requirements",
+      "headRefName": "combined",
+      "headRefOid": "7c8e294954956a6030ff22c3689cef4ab6ca490d",
+      "closedAt": "2020-09-04T08:22:49Z",
+      "mergedAt": "2020-09-04T08:22:48Z",
+      "mergedBy": "chris-box",
+      "mergeCommit": {
+        "oid": "ff8f541f64af9c7be30a6527d449d8444f80bb17"
+      },
+      "comments": [
+        {
+          "author": "gitnnelg",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I\u2019m not sure adding authenticated here is something the group has consensus on as yet.    I know this is still in early draft mode, so while I don\u2019t object to including it, we should mark is as an item to be discussed.    If we do include it, then some words should be added somewhere in the draft about what \u201cauthenticated\u201d in such a context is being proposed to mean as that\u2019s what will be a key discussion item in determining if it get consensus.\r\n\r\n-glenn\r\n\r\nOn 8/25/20, 9:37 AM, \"Tommy Pauly\" <notifications@github.com<mailto:notifications@github.com>> wrote:\r\n\r\n\r\n@tfpauly commented on this pull request.\r\n\r\n________________________________\r\n\r\nIn draft-add-requirements.md<https://urldefense.com/v3/__https:/github.com/ietf-wg-add/draft-add-requirements/pull/2*discussion_r476585078__;Iw!!CQl3mcHX2A!UFkwQD0RKT9heHunOxOJOVoKR-xZvE6UU3zV_wGpnOb1kJfv5wD8sDEquOZRggfjNw$>:\r\n\r\n>\r\n\r\n-During network attach, networks frequently announce a resolver that they recommend clients should use.\r\n\r\n-This could be through DHCP, RA, PPP, PCO, or another mechanism. Historically this is usually a Do53 resolver,\r\n\r\n-declared simply by its IP address. However it could also be a richer set of information.\r\n\r\n+Using an encrypted resolver that is associated to the one provisioned by the network\r\n\u2b07\ufe0f Suggested change\r\n\r\n-Using an encrypted resolver that is associated to the one provisioned by the network\r\n\r\n+Using an encrypted and authenticated resolver that is associated to the one provisioned by the network\r\n\r\n\u2014\r\nYou are receiving this because you are subscribed to this thread.\r\nReply to this email directly, view it on GitHub<https://urldefense.com/v3/__https:/github.com/ietf-wg-add/draft-add-requirements/pull/2*pullrequestreview-474658953__;Iw!!CQl3mcHX2A!UFkwQD0RKT9heHunOxOJOVoKR-xZvE6UU3zV_wGpnOb1kJfv5wD8sDEquOb0WVUntg$>, or unsubscribe<https://urldefense.com/v3/__https:/github.com/notifications/unsubscribe-auth/AADERXCRA2EDIMBSLRTCND3SCPSD5ANCNFSM4QK3AIQQ__;!!CQl3mcHX2A!UFkwQD0RKT9heHunOxOJOVoKR-xZvE6UU3zV_wGpnOb1kJfv5wD8sDEquObFQl3MGw$>.\r\n",
+          "createdAt": "2020-08-25T16:52:23Z",
+          "updatedAt": "2020-08-25T16:52:23Z"
+        },
+        {
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Glenn I merged \"authenticated\" before I read this comment. I added it because it made sense to me; without authentication any encryption is highly weakened. But I take your point that it needs explaining. ",
+          "createdAt": "2020-08-25T18:07:19Z",
+          "updatedAt": "2020-08-25T18:07:19Z"
+        },
+        {
+          "author": "gitnnelg",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Ok, perhaps it can be added in the next rev.     Basically I\u2019m suggesting that the aspect of \u201cauthenticated\u201d be expanded, discussed, and explained as it does potentially have different notions in different readers perspectives.\r\n\r\nFor example some may say doing a DNSSEC validation of some sort is what is needed, or perhaps some form of PKI, or is it a TLS certificate validation, or mutual exchange?   It might even be something as basic as asking special DNS queries and validating the answers received against expectations.\r\n\r\nAnother slice would be authenticating the actual resolver chosen or is it authenticated at the more abstract \u201cservice\u201d provided by the operator of the resolver?\r\n\r\nThere is also the consideration of does the authentication means/level vary depending on different environmental threat levels?\r\n\r\nThe bottom line is there is a lot of meanings behind \u201cauthentication\u201d and what is being authenticated to declare and discuss as a requirement.\r\n\r\n-glenn\r\n\r\n\r\n\r\nOn 8/25/20, 11:08 AM, \"Chris Box\" <notifications@github.com<mailto:notifications@github.com>> wrote:\r\n\r\n\r\nGlenn I merged \"authenticated\" before I read this comment. I added it because it made sense to me; without authentication any encryption is highly weakened. But I take your point that it needs explaining.\r\n\r\n\u2014\r\nYou are receiving this because you commented.\r\nReply to this email directly, view it on GitHub<https://urldefense.com/v3/__https:/github.com/ietf-wg-add/draft-add-requirements/pull/2*issuecomment-680185639__;Iw!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5RQGz2s9A$>, or unsubscribe<https://urldefense.com/v3/__https:/github.com/notifications/unsubscribe-auth/AADERXFXUSEHLEJ2AILCTV3SCP4WNANCNFSM4QK3AIQQ__;!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5TjF6jBYw$>.\r\n",
+          "createdAt": "2020-08-25T19:06:41Z",
+          "updatedAt": "2020-08-25T19:06:41Z"
+        },
+        {
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "body": "> \r\n> Ok, perhaps it can be added in the next rev. Basically I\u2019m suggesting that the aspect of \u201cauthenticated\u201d be expanded, discussed, and explained as it does potentially have different notions in different readers perspectives. For example some may say doing a DNSSEC validation of some sort is what is needed, or perhaps some form of PKI, or is it a TLS certificate validation, or mutual exchange? It might even be something as basic as asking special DNS queries and validating the answers received against expectations. Another slice would be authenticating the actual resolver chosen or is it authenticated at the more abstract \u201cservice\u201d provided by the operator of the resolver? There is also the consideration of does the authentication means/level vary depending on different environmental threat levels? The bottom line is there is a lot of meanings behind \u201cauthentication\u201d and what is being authenticated to declare and discuss as a requirement.\r\n> [\u2026](#)\r\n> -glenn On 8/25/20, 11:08 AM, \"Chris Box\" <notifications@github.com<mailto:notifications@github.com>> wrote: Glenn I merged \"authenticated\" before I read this comment. I added it because it made sense to me; without authentication any encryption is highly weakened. But I take your point that it needs explaining. \u2014 You are receiving this because you commented. Reply to this email directly, view it on GitHub<[https://urldefense.com/v3/__https:/github.com/ietf-wg-add/draft-add-requirements/pull/2*issuecomment-680185639__;Iw!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5RQGz2s9A$](https://urldefense.com/v3/__https:/github.com/ietf-wg-add/draft-add-requirements/pull/2*issuecomment-680185639__;Iw!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5RQGz2s9A%24)>, or unsubscribe<[https://urldefense.com/v3/__https:/github.com/notifications/unsubscribe-auth/AADERXFXUSEHLEJ2AILCTV3SCP4WNANCNFSM4QK3AIQQ__;!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5TjF6jBYw$](https://urldefense.com/v3/__https:/github.com/notifications/unsubscribe-auth/AADERXFXUSEHLEJ2AILCTV3SCP4WNANCNFSM4QK3AIQQ__;!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5TjF6jBYw%24)>.\r\n\r\n\r\n\r\n> \r\n> Ok, perhaps it can be added in the next rev. Basically I\u2019m suggesting that the aspect of \u201cauthenticated\u201d be expanded, discussed, and explained as it does potentially have different notions in different readers perspectives. For example some may say doing a DNSSEC validation of some sort is what is needed, or perhaps some form of PKI, or is it a TLS certificate validation, or mutual exchange? It might even be something as basic as asking special DNS queries and validating the answers received against expectations. Another slice would be authenticating the actual resolver chosen or is it authenticated at the more abstract \u201cservice\u201d provided by the operator of the resolver? There is also the consideration of does the authentication means/level vary depending on different environmental threat levels? The bottom line is there is a lot of meanings behind \u201cauthentication\u201d and what is being authenticated to declare and discuss as a requirement.\r\n> [\u2026](#)\r\n> -glenn On 8/25/20, 11:08 AM, \"Chris Box\" <notifications@github.com<mailto:notifications@github.com>> wrote: Glenn I merged \"authenticated\" before I read this comment. I added it because it made sense to me; without authentication any encryption is highly weakened. But I take your point that it needs explaining. \u2014 You are receiving this because you commented. Reply to this email directly, view it on GitHub<[https://urldefense.com/v3/__https:/github.com/ietf-wg-add/draft-add-requirements/pull/2*issuecomment-680185639__;Iw!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5RQGz2s9A$](https://urldefense.com/v3/__https:/github.com/ietf-wg-add/draft-add-requirements/pull/2*issuecomment-680185639__;Iw!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5RQGz2s9A%24)>, or unsubscribe<[https://urldefense.com/v3/__https:/github.com/notifications/unsubscribe-auth/AADERXFXUSEHLEJ2AILCTV3SCP4WNANCNFSM4QK3AIQQ__;!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5TjF6jBYw$](https://urldefense.com/v3/__https:/github.com/notifications/unsubscribe-auth/AADERXFXUSEHLEJ2AILCTV3SCP4WNANCNFSM4QK3AIQQ__;!!CQl3mcHX2A!R0K9AsK7kKDS9OoIYP4zdmPDCKUSdEylkr1kJta4f7Fy-2-P95TsoP9ES5TjF6jBYw%24)>.\r\n\r\nSeveral possible ways of authenticating the encrypted DNS server are already discussed in our spec https://tools.ietf.org/html/rfc8310#section-8. I don't think the requirements draft should discuss the possible modes of authenticating the server. ",
+          "createdAt": "2020-08-31T05:19:09Z",
+          "updatedAt": "2020-08-31T05:19:09Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc0NjU3MTU1",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-25T16:34:49Z",
+          "updatedAt": "2020-08-25T16:34:49Z",
+          "comments": [
+            {
+              "originalPosition": 309,
+              "body": "```suggestion\r\n- Redirect secure DNS traffic to themselves when they would not otherwise handle DNS traffic.\r\n```",
+              "createdAt": "2020-08-25T16:34:49Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc0NjU4OTUz",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-25T16:37:02Z",
+          "updatedAt": "2020-08-25T16:37:02Z",
+          "comments": [
+            {
+              "originalPosition": 120,
+              "body": "```suggestion\r\nUsing an encrypted and authenticated resolver that is associated to the one provisioned by the network\r\n```",
+              "createdAt": "2020-08-25T16:37:02Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc0NjYzNjE2",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-25T16:42:48Z",
+          "updatedAt": "2020-08-25T16:42:48Z",
+          "comments": [
+            {
+              "originalPosition": 131,
+              "body": "Do we need these placeholder requirements? It'd be nice to either fill them in or remove before publishing.",
+              "createdAt": "2020-08-25T16:42:48Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc0NjY1NDUz",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-25T16:45:11Z",
+          "updatedAt": "2020-08-25T16:45:12Z",
+          "comments": [
+            {
+              "originalPosition": 104,
+              "body": "As far as flow, the way we had tried to lay things out was to derive the mechanism requirements after describing the use cases. We can certainly refer back to the use cases that motivate requirements.\r\n\r\nMy question reading this requirement up front like this (before getting to use cases) is \"why only the IP address\"? If it was only about network provisioning, this might not be a requirements, and I think this one comes more strictly from the user-selected resolver case.",
+              "createdAt": "2020-08-25T16:45:12Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc0NjY2OTAz",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-25T16:47:02Z",
+          "updatedAt": "2020-08-25T16:47:02Z",
+          "comments": [
+            {
+              "originalPosition": 294,
+              "body": "On the thread, we discussed limiting the capabilities of this attacker to not worry about proving that a local network doesn't have an encrypted resolver, etc. Chris Wood, can you help here?",
+              "createdAt": "2020-08-25T16:47:02Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc0NjY3MTcz",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "Good start of merge! A few comments provided.",
+          "createdAt": "2020-08-25T16:47:23Z",
+          "updatedAt": "2020-08-25T16:47:23Z",
+          "comments": []
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc0Njc2MDU5",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-25T16:58:41Z",
+          "updatedAt": "2020-08-25T16:58:41Z",
+          "comments": [
+            {
+              "originalPosition": 131,
+              "body": "I think the document needs a table of requirements for each section. However it will take some time to fill them in. The problem with removing it is that (a) it's not obvious that these will be added later, and (b) the requirements group numbering would then skip an integer for no apparent reason.",
+              "createdAt": "2020-08-25T16:58:41Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjE5OTAz",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:26:43Z",
+          "updatedAt": "2020-08-26T07:26:44Z",
+          "comments": [
+            {
+              "originalPosition": 58,
+              "body": "You may want to add DNS-over-QUIC to the list (https://tools.ietf.org/html/draft-ietf-dprive-dnsoquic-00). ",
+              "createdAt": "2020-08-26T07:26:44Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjIyNzYw",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:30:53Z",
+          "updatedAt": "2020-08-26T07:30:54Z",
+          "comments": [
+            {
+              "originalPosition": 99,
+              "body": "I don't think this draft should discuss possible discovery mechanisms. It should only focus on use cases and requirements.",
+              "createdAt": "2020-08-26T07:30:54Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjIzNzYx",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:32:20Z",
+          "updatedAt": "2020-08-26T07:32:21Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "What do you mean by \"associated resolver\" (we should add define the term) ?",
+              "createdAt": "2020-08-26T07:32:21Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjI2MjQy",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:36:05Z",
+          "updatedAt": "2020-08-26T07:36:06Z",
+          "comments": [
+            {
+              "originalPosition": 91,
+              "body": "The text is discussing auto-upgrade mechanism but should focus on the need to discover resolver in the attached network. Further, this use case is specific to Home networks and is not applicable to Enterprise networks.",
+              "createdAt": "2020-08-26T07:36:06Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjI2NzAw",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:36:45Z",
+          "updatedAt": "2020-08-26T07:36:46Z",
+          "comments": [
+            {
+              "originalPosition": 96,
+              "body": "I don't the example, what do you mean by \"different levels of filtering\" ?",
+              "createdAt": "2020-08-26T07:36:46Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjMxMDM1",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:42:54Z",
+          "updatedAt": "2020-08-26T07:42:54Z",
+          "comments": [
+            {
+              "originalPosition": 104,
+              "body": "Agree with Tommy, we should focus on generic requirements without hinting on possible solutions. We may want to re-phrase the requirements as follows:\r\n R1.1 There must be a mechanism for a client to learn the set of encrypted resolver that are associated with a unencrypted resolver.\r\n R1.2 | Discovery must be possible even when the IP address of the encrypted DNS resolver is only valid locally.",
+              "createdAt": "2020-08-26T07:42:54Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjMzNjc5",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:46:28Z",
+          "updatedAt": "2020-08-26T07:46:28Z",
+          "comments": [
+            {
+              "originalPosition": 127,
+              "body": "Network-provisioned resolvers may not be a forwaders in large enterprise networks. The above statement is only valid for home network deployments.",
+              "createdAt": "2020-08-26T07:46:28Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjM1NTcy",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:49:03Z",
+          "updatedAt": "2020-08-26T07:49:03Z",
+          "comments": [
+            {
+              "originalPosition": 134,
+              "body": "This use case is true from a Home network deployment scenario where several homes may have legacy routers or un-managed routers whose config/firmware cannot be upgraded but not in a typical Enterprise deployment. \r\n\r\nIt is good to explain the deployment scenario.",
+              "createdAt": "2020-08-26T07:49:03Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjM3ODQ5",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:52:08Z",
+          "updatedAt": "2020-08-26T07:52:08Z",
+          "comments": [
+            {
+              "originalPosition": 155,
+              "body": "You may want to add other benefits like enforcing device specific policies like IoT MUD (RFC8520) and parental control. ",
+              "createdAt": "2020-08-26T07:52:08Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjM5ODIw",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:54:40Z",
+          "updatedAt": "2020-08-26T07:54:40Z",
+          "comments": [
+            {
+              "originalPosition": 166,
+              "body": "Why would the client allow a administrator to select a specific DNS resolver to use in all network unless it is a managed device by the Enterprise network ?",
+              "createdAt": "2020-08-26T07:54:40Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjQwMzYw",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:55:22Z",
+          "updatedAt": "2020-08-26T07:55:23Z",
+          "comments": [
+            {
+              "originalPosition": 177,
+              "body": "What do you mean by \"same semantics\" ?",
+              "createdAt": "2020-08-26T07:55:23Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjQxMDQy",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:56:13Z",
+          "updatedAt": "2020-08-26T07:56:14Z",
+          "comments": [
+            {
+              "originalPosition": 178,
+              "body": "I don't get this line (are you referring to a resolver performing DNS filtering) ?",
+              "createdAt": "2020-08-26T07:56:14Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjQyNzIw",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T07:58:14Z",
+          "updatedAt": "2020-08-26T07:58:15Z",
+          "comments": [
+            {
+              "originalPosition": 199,
+              "body": "You can use the text from https://tools.ietf.org/html/draft-btw-add-ipsecme-ike-00#section-3 to discuss the use cases.",
+              "createdAt": "2020-08-26T07:58:14Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MjQ4ODU4",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T08:06:25Z",
+          "updatedAt": "2020-08-26T08:06:26Z",
+          "comments": [
+            {
+              "originalPosition": 240,
+              "body": "Why would the network provisioned encrypted resolver not able to resolve internal domain names ?",
+              "createdAt": "2020-08-26T08:06:26Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MzAwNDM4",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T09:11:37Z",
+          "updatedAt": "2020-08-26T09:11:38Z",
+          "comments": [
+            {
+              "originalPosition": 262,
+              "body": "This use case is specific to BYOD (personal devices without MDM).",
+              "createdAt": "2020-08-26T09:11:37Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MzM1NTQ4",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T09:56:34Z",
+          "updatedAt": "2020-08-26T09:56:35Z",
+          "comments": [
+            {
+              "originalPosition": 294,
+              "body": "An on-path attacker typically will not be always present in the network; the client can remember that a network-provided encrypted resolver is provided by the network (e.g., store the certificate fingerprint or authentication domain name associated with SSID:BSSID). If the endpoint cannot discover the network-provided resolver when it re-attaches to the network, it can assume an attacker blocked the discovery.",
+              "createdAt": "2020-08-26T09:56:34Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1Mzc4OTMy",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T11:01:42Z",
+          "updatedAt": "2020-08-26T11:01:42Z",
+          "comments": [
+            {
+              "originalPosition": 104,
+              "body": "Agree that IP address is too specific here. I'm happy with Tiru's rephrasing.",
+              "createdAt": "2020-08-26T11:01:42Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1Mzg2NTEw",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T11:13:21Z",
+          "updatedAt": "2020-08-26T11:13:21Z",
+          "comments": [
+            {
+              "originalPosition": 58,
+              "body": "Yes we could, although I feel it would make the first sentence too long. This sentence should only really have two examples to illustrate what we mean. But perhaps somewhere further down we should define a list of which protocols should be supported by this discovery process?",
+              "createdAt": "2020-08-26T11:13:21Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1MzkzNDM4",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T11:23:52Z",
+          "updatedAt": "2020-08-26T11:23:52Z",
+          "comments": [
+            {
+              "originalPosition": 99,
+              "body": "This paragraph came from Tommy and Chris so I'll look to them to respond. Personally I think the second part \" provide a way to communicate with\" is ok, but I can see the point about \"adding information to options in DHCP/...\" which is unnecessarily specific.",
+              "createdAt": "2020-08-26T11:23:52Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDI4NzQ4",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T12:17:29Z",
+          "updatedAt": "2020-08-26T12:17:29Z",
+          "comments": [
+            {
+              "originalPosition": 58,
+              "body": "Works for me, we can add in the terminology section:\r\n 'Encrypted DNS' refers to DNS-over-HTTPS [RFC8484], DNS-over-TLS [RFC7858], or DNS-over-QUIC [I-D.ietf-dprive-dnsoquic].",
+              "createdAt": "2020-08-26T12:17:29Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDQyNDAw",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T12:36:07Z",
+          "updatedAt": "2020-08-26T12:36:07Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "Yes, we should define it. How about replacing the first paragraph with \"A client may begin with information from the attached networks, and/or resolvers known from configuration. This information may be used to then discover one or more associated encrypted resolvers. Associated resolvers are defined as resolvers operated by the same entity that provides the resolver the client started with. Such resolvers may come in two forms: 1. Equivalent - these provide DNS responses that are identical to the ones served by the unencrypted resolver. 2. Alternative - these serve different responses to some queries, e.g. due to a modified filtering policy. The client may wish to remain equivalent, or select one of the alternatives.\" If the text looks ok I'll create a commit.",
+              "createdAt": "2020-08-26T12:36:07Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDY0NDYx",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:03:05Z",
+          "updatedAt": "2020-08-26T13:03:06Z",
+          "comments": [
+            {
+              "originalPosition": 91,
+              "body": "On your first point, can you contribute some text? On the second, which part of this text is incompatible with enterprise networks?",
+              "createdAt": "2020-08-26T13:03:05Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDY2NTc1",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:05:33Z",
+          "updatedAt": "2020-08-26T13:05:33Z",
+          "comments": [
+            {
+              "originalPosition": 96,
+              "body": "An example is Cloudflare. Choose between unfiltered (1.1.1.1), malware filtered (1.1.1.2), or malware and adult content filtered (1.1.1.3).",
+              "createdAt": "2020-08-26T13:05:33Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDcxNjc0",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:11:27Z",
+          "updatedAt": "2020-08-26T13:11:27Z",
+          "comments": [
+            {
+              "originalPosition": 127,
+              "body": "I don't think forwarders are exclusive to homes. They're also in SMEs, and there must be some large enterprises that use forwarders in remote offices. But we could amend \"Often\" to \"Frequently\" or \"Sometimes\".",
+              "createdAt": "2020-08-26T13:11:27Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDczOTky",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:14:03Z",
+          "updatedAt": "2020-08-26T13:14:04Z",
+          "comments": [
+            {
+              "originalPosition": 155,
+              "body": "Agree. Can you contribute text?",
+              "createdAt": "2020-08-26T13:14:03Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDc4Mzgy",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:18:57Z",
+          "updatedAt": "2020-08-26T13:18:57Z",
+          "comments": [
+            {
+              "originalPosition": 166,
+              "body": "Are you saying the user would object to this, or the client device's operating system? Because in general any admin can set /etc/resolv.conf, or the equivalent.",
+              "createdAt": "2020-08-26T13:18:57Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDc5OTU5",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:20:41Z",
+          "updatedAt": "2020-08-26T13:20:42Z",
+          "comments": [
+            {
+              "originalPosition": 177,
+              "body": "I guess I can rewrite this now to say it needs to be an equivalent resolver and not an alternative one. (See my definitions of these in a comment above.)",
+              "createdAt": "2020-08-26T13:20:41Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDgxMDM2",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:21:54Z",
+          "updatedAt": "2020-08-26T13:21:54Z",
+          "comments": [
+            {
+              "originalPosition": 178,
+              "body": "Yes. If the user configured 1.1.1.1, switching to 1.1.1.3 will break their expectations.",
+              "createdAt": "2020-08-26T13:21:54Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDgzMTI5",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:24:00Z",
+          "updatedAt": "2020-08-26T13:24:01Z",
+          "comments": [
+            {
+              "originalPosition": 199,
+              "body": "Excellent; I had already planned to shamelessly copy your existing work (and the work found in other ADD drafts), but it's good to have the pointer.",
+              "createdAt": "2020-08-26T13:24:00Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NDg4MDcz",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:28:56Z",
+          "updatedAt": "2020-08-26T13:28:57Z",
+          "comments": [
+            {
+              "originalPosition": 58,
+              "body": "Since this is an example list, I'd prefer to leave it to protocols that are already deployed RFCs. Of course, the recommendations here apply to DoQ, but this isn't supposed to be exhaustive.",
+              "createdAt": "2020-08-26T13:28:57Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NTEyMDI1",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:53:37Z",
+          "updatedAt": "2020-08-26T13:53:37Z",
+          "comments": [
+            {
+              "originalPosition": 240,
+              "body": "One example that springs to mind is the current BT broadband network. There is no encrypted resolver locally, but there is a central one (doh.bt.com). If we announce to the client \"You can either use Do53 on 192.168.1.254, or DoH on https://doh.bt.com/dns-query\" then clients choosing DoH will also need to be told \"If you need to look up *.home.arpa or *.local then ask 192.168.1.254\".",
+              "createdAt": "2020-08-26T13:53:37Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NTE2NjMx",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T13:57:55Z",
+          "updatedAt": "2020-08-26T13:57:55Z",
+          "comments": [
+            {
+              "originalPosition": 262,
+              "body": "Are you saying that enterprise-managed devices will never need to look up private names on a publicly accessible server because they will always have a VPN running before doing such a lookup?",
+              "createdAt": "2020-08-26T13:57:55Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NTI5MDc2",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T14:10:37Z",
+          "updatedAt": "2020-08-26T14:10:37Z",
+          "comments": [
+            {
+              "originalPosition": 262,
+              "body": "No, I don't think that would be right.\r\n\r\nI don't think this case is specific to non-MDM devices. Even with MDM devices, devices aren't often configured to know which domains are privately accessible on an enterprise Wi-Fi network. Certainly MDMs could be updated going forward (which wouldn't be possible for pure BYOD cases), but that's not the status quo. Also, if we have a mechanism that works for the pure BYOD case, it wouldn't be necessary to build an MDM-specific solution. ",
+              "createdAt": "2020-08-26T14:10:37Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc1NTQ3NDM0",
+          "commit": {
+            "abbreviatedOid": "4ddc05c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-26T14:28:56Z",
+          "updatedAt": "2020-08-26T14:28:56Z",
+          "comments": [
+            {
+              "originalPosition": 134,
+              "body": "Yes we can definitely expand on this later.",
+              "createdAt": "2020-08-26T14:28:56Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2Mzk5MTU0",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T05:40:15Z",
+          "updatedAt": "2020-08-27T05:40:16Z",
+          "comments": [
+            {
+              "originalPosition": 58,
+              "body": "DNS-over-QUIC is already a WG document and will most likely progress to publication before the work in ADD WG.",
+              "createdAt": "2020-08-27T05:40:15Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDAxNjY5",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T05:47:38Z",
+          "updatedAt": "2020-08-27T05:47:38Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "Looks better but I don't get how the client will begin with the information from the attached network. Subsequent text in the paragraph is only discussing resolvers known from configuration.",
+              "createdAt": "2020-08-27T05:47:38Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDA0MTY1",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T05:54:08Z",
+          "updatedAt": "2020-08-27T05:54:08Z",
+          "comments": [
+            {
+              "originalPosition": 99,
+              "body": "Works for me.",
+              "createdAt": "2020-08-27T05:54:08Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDA0NTQ0",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T05:55:02Z",
+          "updatedAt": "2020-08-27T05:55:02Z",
+          "comments": [
+            {
+              "originalPosition": 96,
+              "body": "Got it, adding an example will be helpful.",
+              "createdAt": "2020-08-27T05:55:02Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDA3NzY5",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:03:02Z",
+          "updatedAt": "2020-08-27T06:03:03Z",
+          "comments": [
+            {
+              "originalPosition": 127,
+              "body": "Agreed, small and branch offices typically use forwarders but company HQ for large enterprises typically use recursive servers. \"Frequently\" works for me. ",
+              "createdAt": "2020-08-27T06:03:02Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDE5NzM4",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:29:01Z",
+          "updatedAt": "2020-08-27T06:29:01Z",
+          "comments": [
+            {
+              "originalPosition": 91,
+              "body": "I meant the auto-upgrade mechanism will probably work for ISPs but expecting several enterprise networks (including Small Office/Home Office (SOHO) and Small/Medium Enterprise (SME)) to work with browsers/OS to get added to the  client resolver config looks nearly impossible and daunting task.",
+              "createdAt": "2020-08-27T06:29:01Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDIwMDcz",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:29:43Z",
+          "updatedAt": "2020-08-27T06:29:43Z",
+          "comments": [
+            {
+              "originalPosition": 134,
+              "body": "Thanks",
+              "createdAt": "2020-08-27T06:29:43Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDIxMjgy",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:32:03Z",
+          "updatedAt": "2020-08-27T06:32:03Z",
+          "comments": [
+            {
+              "originalPosition": 155,
+              "body": "Sure, you can use the following text for IoT MUD:   \r\n\r\n   A common usage pattern for an IoT device is for it to \"call home\" to\r\n   a service that resides on the public Internet, where that service is\r\n   referenced through a domain name (A or AAAA record).  As discussed in\r\n   Manufacturer Usage Description Specification [RFC8520], because these\r\n   devices tend to require access to very few sites, all other access\r\n   should be considered suspect.  However, if the query is not\r\n   accessible for inspection, it becomes quite difficult for the\r\n   infrastructure to suspect anything.",
+              "createdAt": "2020-08-27T06:32:03Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDI0MzUy",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:38:05Z",
+          "updatedAt": "2020-08-27T06:38:05Z",
+          "comments": [
+            {
+              "originalPosition": 166,
+              "body": "I meant users may not want the Enterprise IT administrator to select a specific DNS resolver to be used in all networks for their BYOD.  We should probably update the text to say:\r\nClient devices often allow the device administrator to select a specific DNS resolver to use on certain networks, or on all networks. \r\n",
+              "createdAt": "2020-08-27T06:38:05Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDI0OTUw",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:39:07Z",
+          "updatedAt": "2020-08-27T06:39:08Z",
+          "comments": [
+            {
+              "originalPosition": 177,
+              "body": "Yes, works for me.",
+              "createdAt": "2020-08-27T06:39:08Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDI1MjI3",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:39:40Z",
+          "updatedAt": "2020-08-27T06:39:41Z",
+          "comments": [
+            {
+              "originalPosition": 178,
+              "body": "Got it, Thanks.",
+              "createdAt": "2020-08-27T06:39:40Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDI2NDg2",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:42:03Z",
+          "updatedAt": "2020-08-27T06:42:03Z",
+          "comments": [
+            {
+              "originalPosition": 199,
+              "body": "Sure, feel free to add text from existing drafts and you can update the Acknowledgements section accordingly \ud83d\udc4d ",
+              "createdAt": "2020-08-27T06:42:03Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDI3MzE2",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:43:38Z",
+          "updatedAt": "2020-08-27T06:43:38Z",
+          "comments": [
+            {
+              "originalPosition": 240,
+              "body": "Got it, Thanks. It will be helpful to add the above explanation. ",
+              "createdAt": "2020-08-27T06:43:38Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDI5NTY1",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:47:52Z",
+          "updatedAt": "2020-08-27T06:47:53Z",
+          "comments": [
+            {
+              "originalPosition": 262,
+              "body": "> Are you saying that enterprise-managed devices will never need to look up private names on a publicly accessible server because they will always have a VPN running before doing such a lookup?\r\n\r\nThe configuration on the enterprise-managed devices is governed by the IT admin and users typically no control to change the config. You may want to look into https://tools.ietf.org/html/draft-reddy-add-enterprise-00#section-3 for more details.",
+              "createdAt": "2020-08-27T06:47:53Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc2NDM0MjYy",
+          "commit": {
+            "abbreviatedOid": "50f346c"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-27T06:56:08Z",
+          "updatedAt": "2020-08-27T06:56:09Z",
+          "comments": [
+            {
+              "originalPosition": 262,
+              "body": "> \r\n> \r\n> No, I don't think that would be right.\r\n> \r\n> I don't think this case is specific to non-MDM devices. Even with MDM devices, devices aren't often configured to know which domains are privately accessible on an enterprise Wi-Fi network. Certainly MDMs could be updated going forward (which wouldn't be possible for pure BYOD cases), but that's not the status quo. Also, if we have a mechanism that works for the pure BYOD case, it wouldn't be necessary to build an MDM-specific solution.\r\n\r\nAgreed, we can say the use case is specific to \"BYOD\" without explicitly saying \"BYOD without MDM\". On a side note, MDM is a secure way of configuring endpoints and a secure mechanism will be required for pure BYOD case to be applicable to MDM. Configuration profile could be another way to securely provision the BYOD without MDM (see https://tools.ietf.org/html/draft-reddy-add-enterprise-00#section-5). \r\n",
+              "createdAt": "2020-08-27T06:56:08Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3ODg2ODEz",
+          "commit": {
+            "abbreviatedOid": "53c4e79"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T16:57:48Z",
+          "updatedAt": "2020-08-28T16:57:49Z",
+          "comments": [
+            {
+              "originalPosition": 96,
+              "body": "Added.",
+              "createdAt": "2020-08-28T16:57:48Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3ODg4MTU4",
+          "commit": {
+            "abbreviatedOid": "6e8cbc5"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T16:59:52Z",
+          "updatedAt": "2020-08-28T16:59:52Z",
+          "comments": [
+            {
+              "originalPosition": 127,
+              "body": "Done.",
+              "createdAt": "2020-08-28T16:59:52Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3ODk0MTMx",
+          "commit": {
+            "abbreviatedOid": "97d255f"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T17:08:55Z",
+          "updatedAt": "2020-08-28T17:08:56Z",
+          "comments": [
+            {
+              "originalPosition": 155,
+              "body": "Great; I've applied it.",
+              "createdAt": "2020-08-28T17:08:55Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3ODk1OTgw",
+          "commit": {
+            "abbreviatedOid": "0df164e"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T17:11:57Z",
+          "updatedAt": "2020-08-28T17:11:58Z",
+          "comments": [
+            {
+              "originalPosition": 166,
+              "body": "Done.",
+              "createdAt": "2020-08-28T17:11:57Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3OTAwODA1",
+          "commit": {
+            "abbreviatedOid": "0df164e"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T17:19:35Z",
+          "updatedAt": "2020-08-28T17:19:36Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "The text in this '# Discovery of associated resolvers' section is applicable to all of its subsections, i.e. '## Network-provisioned resolvers', '## Client-selected resolvers' and '## VPN resolvers'. The first and third of these use information from attached networks. Only the second uses local configuration.",
+              "createdAt": "2020-08-28T17:19:36Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3OTAxNDU2",
+          "commit": {
+            "abbreviatedOid": "0df164e"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T17:20:37Z",
+          "updatedAt": "2020-08-28T17:20:38Z",
+          "comments": [
+            {
+              "originalPosition": 177,
+              "body": "Ok I'll commit that when the Equivalent/Alternative definitions are ok'd by Tommy & Chris.",
+              "createdAt": "2020-08-28T17:20:37Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3OTA0NjM5",
+          "commit": {
+            "abbreviatedOid": "0df164e"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T17:25:42Z",
+          "updatedAt": "2020-08-28T17:25:43Z",
+          "comments": [
+            {
+              "originalPosition": 99,
+              "body": "I don't think this was intended to describe the mechanisms, but just give examples of what directly provisioning would look like. Could we just have the list in parentheses say \"for example,\"?",
+              "createdAt": "2020-08-28T17:25:42Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3OTA0ODA1",
+          "commit": {
+            "abbreviatedOid": "0df164e"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T17:26:00Z",
+          "updatedAt": "2020-08-28T17:26:00Z",
+          "comments": [
+            {
+              "originalPosition": 58,
+              "body": "Sure, I could go either way.",
+              "createdAt": "2020-08-28T17:26:00Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3OTA2NDM1",
+          "commit": {
+            "abbreviatedOid": "0df164e"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T17:28:38Z",
+          "updatedAt": "2020-08-28T17:28:38Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "I think the equivalent/alternative definitions are fine _within the scope of associated resolvers_. I'd prefer maybe to call them \"equivalent associated resolvers\" (even though that's long), just to make it clear that we want to be able to discover not just any resolver that gives us the same answer, but one that is operated by the same entity.",
+              "createdAt": "2020-08-28T17:28:38Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc3OTEzMjYx",
+          "commit": {
+            "abbreviatedOid": "042c72f"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-28T17:39:53Z",
+          "updatedAt": "2020-08-28T17:39:54Z",
+          "comments": [
+            {
+              "originalPosition": 240,
+              "body": "Done.",
+              "createdAt": "2020-08-28T17:39:53Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc4MzE0MzM5",
+          "commit": {
+            "abbreviatedOid": "042c72f"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-08-31T05:26:19Z",
+          "updatedAt": "2020-08-31T05:26:20Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "How does the client learn the encrypted and unencrypted DNS servers are operated by the same administrative domain ?\r\nThe client can authenticate the encrypted DNS servers but cannot authenticate the unencrypted DNS server !",
+              "createdAt": "2020-08-31T05:26:19Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc5Nzk3OTc0",
+          "commit": {
+            "abbreviatedOid": "a4c3a80"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-01T14:28:26Z",
+          "updatedAt": "2020-09-01T14:28:26Z",
+          "comments": [
+            {
+              "originalPosition": 99,
+              "body": "Ok I've now added the \"for example\".",
+              "createdAt": "2020-09-01T14:28:26Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc5OTY1Mjg4",
+          "commit": {
+            "abbreviatedOid": "de7ed1c"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-01T17:26:33Z",
+          "updatedAt": "2020-09-01T17:26:34Z",
+          "comments": [
+            {
+              "originalPosition": 87,
+              "body": "Tiru, that is indeed a problem but not sure it needs describing at this point in the document. I've added a commit which covers the equivalent/alternative associated part. Resolving this conversation now but if it needs amending we can reopen.",
+              "createdAt": "2020-09-01T17:26:33Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgwODU0ODYy",
+          "commit": {
+            "abbreviatedOid": "7c67ee2"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-02T14:05:19Z",
+          "updatedAt": "2020-09-02T14:05:19Z",
+          "comments": [
+            {
+              "originalPosition": 58,
+              "body": "We didn't have a Terminology section before but I've now committed one, including this Encrypted DNS definition and also associated/equivalent/alternative. I tried the reflect the format used in other RFCs so hope that looks ok. Resolving for now.",
+              "createdAt": "2020-09-02T14:05:19Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgwODY1MTQ4",
+          "commit": {
+            "abbreviatedOid": "7c67ee2"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-02T14:15:48Z",
+          "updatedAt": "2020-09-02T14:15:49Z",
+          "comments": [
+            {
+              "originalPosition": 91,
+              "body": "I don't follow why SMEs (or anyone) would need to obtain agreement from browsers and OSs. This draft is not proposing that a list of known resolvers is embedded in clients. Perhaps this is a misreading of the text; perhaps you've interpreted it to mean \"A client begins with information about known encrypted networks in its configuration\".  I will try to reword it to make the intent clearer.",
+              "createdAt": "2020-09-02T14:15:48Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgwODcwOTk1",
+          "commit": {
+            "abbreviatedOid": "f0465c1"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-02T14:21:43Z",
+          "updatedAt": "2020-09-02T14:21:44Z",
+          "comments": [
+            {
+              "originalPosition": 91,
+              "body": "Done. Let me know if it still doesn't make sense.",
+              "createdAt": "2020-09-02T14:21:43Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgwODgwMzkz",
+          "commit": {
+            "abbreviatedOid": "376ec56"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-02T14:30:17Z",
+          "updatedAt": "2020-09-02T14:30:18Z",
+          "comments": [
+            {
+              "originalPosition": 177,
+              "body": "Done.",
+              "createdAt": "2020-09-02T14:30:17Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgwOTU4ODk0",
+          "commit": {
+            "abbreviatedOid": "376ec56"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-02T15:46:33Z",
+          "updatedAt": "2020-09-02T15:46:33Z",
+          "comments": [
+            {
+              "originalPosition": 318,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2020-09-02T15:46:33Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgwOTU5OTk5",
+          "commit": {
+            "abbreviatedOid": "376ec56"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-02T15:47:40Z",
+          "updatedAt": "2020-09-02T15:47:40Z",
+          "comments": [
+            {
+              "originalPosition": 318,
+              "body": "I don't support putting in an unexplained and unjustified sentence here to undercut this use case. These explanations need to be objective.",
+              "createdAt": "2020-09-02T15:47:40Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgwOTcwNDI4",
+          "commit": {
+            "abbreviatedOid": "376ec56"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-02T15:58:52Z",
+          "updatedAt": "2020-09-02T15:58:52Z",
+          "comments": [
+            {
+              "originalPosition": 318,
+              "body": "To explain, this was intended to go into (completely objectively) the consequences implied by use of #cdn-content, e.g. bypass of intended monitoring or filtering. Such actions can be a benefit or a drawback, potentially both at the same time. I agree the sentence can't remain without justification, so I'll delete for -00.",
+              "createdAt": "2020-09-02T15:58:52Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgwOTg0OTM4",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-09-02T16:15:55Z",
+          "updatedAt": "2020-09-02T16:15:55Z",
+          "comments": []
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNDk5MjAz",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T05:19:14Z",
+          "updatedAt": "2020-09-03T05:19:14Z",
+          "comments": [
+            {
+              "originalPosition": 248,
+              "body": "I suggest replace \"most domains\" with \"public domains\".",
+              "createdAt": "2020-09-03T05:19:14Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNTE5NDkz",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T06:12:56Z",
+          "updatedAt": "2020-09-03T06:12:56Z",
+          "comments": [
+            {
+              "originalPosition": 336,
+              "body": "Trusting the communication is only possible by authenticating the DNS resolver. ",
+              "createdAt": "2020-09-03T06:12:56Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNTM2Mzg0",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T06:45:29Z",
+          "updatedAt": "2020-09-03T06:45:29Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "Opportunistic encryption is specific to DoT and DoH does not discuss Opportunistic encryption. This is a question to the WG whether all DNS encryption protocols should support opportunistic encryption profile ?",
+              "createdAt": "2020-09-03T06:45:29Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNTQxMjYz",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T06:54:23Z",
+          "updatedAt": "2020-09-03T06:54:24Z",
+          "comments": [
+            {
+              "originalPosition": 163,
+              "body": "It is difficult to upgrade legacy routers but modern home routers can be easily upgraded (they support LXC containers, RDK software https://rdkcentral.com/ to easily update config and software on routers). \r\n\r\n",
+              "createdAt": "2020-09-03T06:54:23Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNjc3MjA1",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T09:47:54Z",
+          "updatedAt": "2020-09-03T09:47:55Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "I think this PR is the wrong place to ask a question to the WG. If you asked the WG I suspect the answer would be that it's not worth developing opportunistic for DoH due to the lack of benefit and the fact that if you want to do this you can just use DoT like Android does.",
+              "createdAt": "2020-09-03T09:47:54Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNjg2MTY3",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T09:59:42Z",
+          "updatedAt": "2020-09-03T09:59:42Z",
+          "comments": [
+            {
+              "originalPosition": 163,
+              "body": "Some modern home routers, yes. But it remains the case that there is a large installed based of difficult-to-upgrade routers, and this is currently the majority of routers in the home in the UK. So I think the text seems still valid.",
+              "createdAt": "2020-09-03T09:59:42Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNjg4ODAx",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T10:03:12Z",
+          "updatedAt": "2020-09-03T10:03:12Z",
+          "comments": [
+            {
+              "originalPosition": 336,
+              "body": "I guess \"blind trust\" is another option; people frequently assume that there is no attacker when doing Do53 or opportunistic DoT. This is not particularly wise but it happens, particularly in networks where there is no history of attack.",
+              "createdAt": "2020-09-03T10:03:12Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNjkxODUx",
+          "commit": {
+            "abbreviatedOid": "37dc360"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T10:07:21Z",
+          "updatedAt": "2020-09-03T10:07:22Z",
+          "comments": [
+            {
+              "originalPosition": 248,
+              "body": "Yes, this makes the example clearer. Done.",
+              "createdAt": "2020-09-03T10:07:22Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNzQ2MTc5",
+          "commit": {
+            "abbreviatedOid": "37dc360"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T11:29:06Z",
+          "updatedAt": "2020-09-03T11:29:07Z",
+          "comments": [
+            {
+              "originalPosition": 163,
+              "body": "It depends on the ISP. I know Comcast-managed routers run RDK software (https://rdkcentral.com/). They can update configs & software on devices with fine-grained control (controlled release, A/B test, roll fwd/back, etc.) and with whatever frequency is necessary. ",
+              "createdAt": "2020-09-03T11:29:07Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNzU2NTU0",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T11:44:40Z",
+          "updatedAt": "2020-09-03T11:44:41Z",
+          "comments": [
+            {
+              "originalPosition": 336,
+              "body": "Enterprise networks with best security practices are still susceptible to internal attacks (see https://tools.ietf.org/html/draft-arkko-farrell-arch-model-t-03). Enterprises have started migrating to \"zero trust security\" framework to encrypt all communication to minimize the threat (https://www.cloudflare.com/learning/security/glossary/what-is-zero-trust/. If internal attacks are not an issue, Enterprises would not move to using HTTPS for internal servers.\r\n\r\nI propose the following change:\r\nClients cannot assume that their network does not have such an attacker, encryption and authentication of DNS resolver is required to defend from active and passive attacks. \r\n ",
+              "createdAt": "2020-09-03T11:44:40Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNzYxMDM1",
+          "commit": {
+            "abbreviatedOid": "6f43408"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T11:51:38Z",
+          "updatedAt": "2020-09-03T11:51:39Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "Agreed but the text should say opportunistic encryption is specific to DoT and DoH does not support opportunistic encryption. The current text in this paragraph is assuming DNS traffic is encrypted, it is not correct. Opportunistic encryption allows the client to fallback to Do53. You may want to look into https://tools.ietf.org/html/rfc8310 \r\n\r\n<snip from our spec>\r\n  In the best-case scenario for the\r\n   Opportunistic Privacy profile (an authenticated and encrypted\r\n   connection), it is equivalent to the Strict Privacy profile.  In the\r\n   worst-case scenario, it is equivalent to cleartext.  Clients using\r\n   the Opportunistic Privacy profile SHOULD try for the best case but\r\n   MAY fall back to the intermediate case and, eventually, the worst-\r\n   case scenario, in order to obtain a response.\r\n</snip>\r\n\r\n",
+              "createdAt": "2020-09-03T11:51:38Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxNzk4NDMx",
+          "commit": {
+            "abbreviatedOid": "37dc360"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T12:42:38Z",
+          "updatedAt": "2020-09-03T12:42:38Z",
+          "comments": [
+            {
+              "originalPosition": 336,
+              "body": "Indeed, Zero Trust is being adopted in enterprises. Let's move this to an issue so we can review the wording properly and more widely.",
+              "createdAt": "2020-09-03T12:42:38Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxODExNDQ1",
+          "commit": {
+            "abbreviatedOid": "37dc360"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T12:58:27Z",
+          "updatedAt": "2020-09-03T12:58:28Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "This section is essentially saying that \"Opportunistic Encrypted DNS is not a good idea\", and then the document moves on to other things. Yes, we could limit this to saying that \"Opportunistic DoT is not a good idea\", but DoQ also supports opportunistic mode. So for me it seems ok to leave this at the broader \"opportunistic encrypted DNS is not recommended, regardless of type\". But we could add a reference to RFC8310 section 6.5.",
+              "createdAt": "2020-09-03T12:58:28Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxODEyNjUy",
+          "commit": {
+            "abbreviatedOid": "37dc360"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T12:59:53Z",
+          "updatedAt": "2020-09-03T12:59:53Z",
+          "comments": [
+            {
+              "originalPosition": 163,
+              "body": "So my intention here is that \"frequently the case\" means frequently in a *global* sense, not frequently in the context of a single ISP.",
+              "createdAt": "2020-09-03T12:59:53Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgxOTM3MzYz",
+          "commit": {
+            "abbreviatedOid": "37dc360"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-03T15:08:35Z",
+          "updatedAt": "2020-09-03T15:08:35Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "I think we need to leave this to be a generic statement about opportunistic encryption overall. ",
+              "createdAt": "2020-09-03T15:08:35Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDc4NjU1MDE3",
+          "commit": {
+            "abbreviatedOid": "042c72f"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-08-31T14:16:01Z",
+          "updatedAt": "2020-09-03T21:13:59Z",
+          "comments": [
+            {
+              "originalPosition": 58,
+              "body": "Like Tommy suggests, I'd keep this as is.",
+              "createdAt": "2020-08-31T14:16:01Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 87,
+              "body": "> How does the client learn the encrypted and unencrypted DNS servers are operated by the same administrative domain ?\r\n\r\nI don't think they can!",
+              "createdAt": "2020-08-31T14:21:39Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 108,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2020-08-31T14:23:06Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 106,
+              "body": "Is this even possible if the unencrypted resolver can't be authenticated? How would a client know if the unencrypted resolver is not attacker controlled?",
+              "createdAt": "2020-08-31T14:24:15Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 106,
+              "body": "I think we ought to constrain this to discovering associated encrypted resolvers, since we can at least demonstrate that this is doable.",
+              "createdAt": "2020-08-31T14:28:48Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 131,
+              "body": "I'd say we remove them if they're empty.",
+              "createdAt": "2020-08-31T14:29:18Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 106,
+              "body": "Associations with the unencrypted resolver seem to be relevant to the section on \"network-provisioned\" resolvers below.",
+              "createdAt": "2020-08-31T14:29:57Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 294,
+              "body": "I'm not sure this is true. I proposed some text to relax the constraints here.",
+              "createdAt": "2020-09-03T20:56:57Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 332,
+              "body": "```suggestion\r\nEncrypted (and authenticated) DNS improves the privacy and security of DNS queries and answers in the presence of malicious\r\n```",
+              "createdAt": "2020-09-03T20:59:37Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 361,
+              "body": "```suggestion\r\non clients to select particular resolvers over others.\r\n\r\nWhen discovering DNS resolvers on a local network, clients have no mechanism to distinguish between cases \r\nwhere an active attacker with the above capabilities is interfering with discovery, and situations wherein \r\nthe network has no encrypted resolver. Absent such a mechanism, an attacker can always succeed in these\r\ngoals. Therefore, in such circumstances, viable solutions for local DNS resolver discovery should consider \r\nweaker attackers, such as those with only passive eavesdropping capabilities. It is unknown whether such\r\nrelaxations represent a realistic attacker in practice. Thus, local discovery solutions designed around\r\nthis threat model may have limited value.\r\n```",
+              "createdAt": "2020-09-03T21:13:36Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            },
+            {
+              "originalPosition": 410,
+              "body": "```suggestion\r\nfrom draft-pauly-add-requirements.\r\n```",
+              "createdAt": "2020-09-03T21:13:53Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyMzYyNjk1",
+          "commit": {
+            "abbreviatedOid": "75c1e23"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T05:13:16Z",
+          "updatedAt": "2020-09-04T05:13:17Z",
+          "comments": [
+            {
+              "originalPosition": 163,
+              "body": "I quoted Comcast as an example only. RDK https://rdkcentral.com/ is not specific to Comcast and used by several others (for example see https://www.alticelabs.com/en/531-altice-labs-innovates-by-launching-its-new-fiber-gateway-with-wi-fi-6-and-rdk-b.html, https://rdkcentral.com/tata-elxsis-vision-for-next-gen-rdk-cpes/). ",
+              "createdAt": "2020-09-04T05:13:16Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyMzY0NDUw",
+          "commit": {
+            "abbreviatedOid": "75c1e23"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T05:18:33Z",
+          "updatedAt": "2020-09-04T05:18:34Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "My comment is about the the following line in the draft:\r\n\r\n\"While opportunistic encryption can provide some benefits, specifically in reducing the ability for other entities to observe traffic, it is not a viable solution against an on-path attacker.\"\r\n\r\nThe above line is not correct, opportunistic allows the client to fallback to clear text DNS (you may want to look into https://tools.ietf.org/html/rfc8310 for more details).. \r\n",
+              "createdAt": "2020-09-04T05:18:34Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyMzY5NTk2",
+          "commit": {
+            "abbreviatedOid": "75c1e23"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T05:35:10Z",
+          "updatedAt": "2020-09-04T05:35:10Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "The fact that it fails open to unencrypted clear text is precisely one of the reasons it is not a viable solution against an on-path attacker. ",
+              "createdAt": "2020-09-04T05:35:10Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyMzgxMzcy",
+          "commit": {
+            "abbreviatedOid": "75c1e23"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T06:08:19Z",
+          "updatedAt": "2020-09-04T06:08:19Z",
+          "comments": [
+            {
+              "originalPosition": 361,
+              "body": "An attacker typically will not be always on-path and an endpoint can remember the network offers encrypted DNS server to defend against future attacks blocking the discovery.\r\n\r\n",
+              "createdAt": "2020-09-04T06:08:19Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyMzgxOTYz",
+          "commit": {
+            "abbreviatedOid": "75c1e23"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T06:09:48Z",
+          "updatedAt": "2020-09-04T06:09:48Z",
+          "comments": [
+            {
+              "originalPosition": 332,
+              "body": "I don't see the need for \"()\". We can say \"Encrypted DNS and authentication of DNS server...\"",
+              "createdAt": "2020-09-04T06:09:48Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyMzgzMTI4",
+          "commit": {
+            "abbreviatedOid": "75c1e23"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T06:12:39Z",
+          "updatedAt": "2020-09-04T06:12:40Z",
+          "comments": [
+            {
+              "originalPosition": 106,
+              "body": "Chrome relies on pubic IP address to associate encrypted resolver with unencrypted resolver for auto-upgrade. It is not possible to associate encrypted with unencrypted in home/enterprise networks. ",
+              "createdAt": "2020-09-04T06:12:39Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyNDMyMzY0",
+          "commit": {
+            "abbreviatedOid": "75c1e23"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T07:46:24Z",
+          "updatedAt": "2020-09-04T07:46:25Z",
+          "comments": [
+            {
+              "originalPosition": 106,
+              "body": "I suggest moving this question to https://github.com/ietf-wg-add/draft-add-requirements/issues/9",
+              "createdAt": "2020-09-04T07:46:24Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyNDM0NTQx",
+          "commit": {
+            "abbreviatedOid": "5a5eb99"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T07:49:43Z",
+          "updatedAt": "2020-09-04T07:49:44Z",
+          "comments": [
+            {
+              "originalPosition": 332,
+              "body": "I think it helps so I've added it.",
+              "createdAt": "2020-09-04T07:49:44Z",
+              "updatedAt": "2020-09-04T07:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyNDM4NzMy",
+          "commit": {
+            "abbreviatedOid": "7c8e294"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T07:56:24Z",
+          "updatedAt": "2020-09-04T07:56:24Z",
+          "comments": [
+            {
+              "originalPosition": 163,
+              "body": "Tiru do you have evidence that such deployments constitute the majority of home routers on the planet?",
+              "createdAt": "2020-09-04T07:56:24Z",
+              "updatedAt": "2020-09-04T07:56:24Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyNDQ1ODc0",
+          "commit": {
+            "abbreviatedOid": "7c8e294"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T08:06:58Z",
+          "updatedAt": "2020-09-04T08:06:58Z",
+          "comments": [
+            {
+              "originalPosition": 163,
+              "body": "My point is growing number of homes are switching to modern routers to get home network security to protect the network from internal and external attacks (especially IoT devices). McAfee Secure Home Platform can run in LXC and is already deployed by several ISPs. Several other companies also offer home network security. As you know a network security service cannot be offered without the capability to upgrade to handle new threats and to add new security capabilities.\r\n\r\nThe requirement should discuss both legacy and modern routers (we should not ignore them).\r\n",
+              "createdAt": "2020-09-04T08:06:58Z",
+              "updatedAt": "2020-09-04T08:06:58Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NDgyNDUyNzUy",
+          "commit": {
+            "abbreviatedOid": "7c8e294"
+          },
+          "author": "chris-box",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-09-04T08:17:01Z",
+          "updatedAt": "2020-09-04T08:17:01Z",
+          "comments": [
+            {
+              "originalPosition": 163,
+              "body": "Agree we should cover all classes of home routers. I was thinking that such modern routers were covered by the \"Encrypted Forwarder\" section, since the obvious way forward is to do the upgrade to support encryption. If you think more text is needed to cover such routers, e.g. to handle when they are upgradeable but do not support encrypted operation, then please could you submit a PR with the relevant text?",
+              "createdAt": "2020-09-04T08:17:01Z",
+              "updatedAt": "2020-09-04T08:17:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "MDExOlB1bGxSZXF1ZXN0NDc4NTkyNzM2",
+      "title": "try to structure the use cases",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/pull/3",
+      "state": "CLOSED",
+      "author": "mglt",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I tried to structure the use cases and initiated some requirements. This is of course a draft version that needs further work. I tried not to remove text, and instead just comment the text that I was not sure is needed. I might have cut a bit too much as I realised some use cases in the direct section were missing. For clarification I am not trying to remove a use case. \r\n\r\nThere are still quite a lot of work needed, this is a very early version of the text, but I prefer to  get early discussion to understand if the text is moving in the right direction. \r\n\r\nHere are some notes on the reasoning of the structure. I also leave some comments in the md text <!-- -->.  Please consider the comments below as random comments. I am not entirely convinced these need to be read if the diff can be read by itself.\r\n\r\nStructure of the document:\r\n\r\nsection 3: Discovery of associated resolvers\r\nThis section assumes that the client already has established a relation with a resolver that is not encrypted. \r\nFrom that starting point, it need to discover the other alternatives.\r\n\r\nThe primary resolver may be obtained through different ways which provides different level of trust in the relation. \r\n* DHCP\r\n* configuration\r\n* VPN\r\n\r\n\r\nThe primary resolver may be DoE aware or unaware\r\n\r\nThe primary may be with local / global IP address\r\n\r\nThe primary may have specific FQDN scope\r\n\r\nIn most cases though the scope is defined as: global scope + eventually a private scope and the use is selecting/provided/configured with the one that includes the private scope. \r\n\r\nscope is related to the discovery as the primary resolver may have a specific scope and discovery needs to be enabled with these different scopes. On the other hand, scope probably needs more specification for the selection. I would see such requirements as part of the discovery requirements not as a way to collect appropriated information related to the resolvers but rather as appropriated information that can be provided as input to the selection process. \r\n\r\nIn addition to the need be able to perform discover over various types of resolvers that have a limited scope, it also seems that scope an information that we may need to define better in order to provide a more accurate resolver selection. These are more related to the discovered information rather than the discovery protocol but it seems that requirements related to the discovered information remain in scope of this work.\r\n\r\nMy reading of it is that we are trying to refine this \"scope\" characteristic that is essential for an appropriated selection and that we are looking at typically the following distinctions:\r\n* explicit list of scopes that may not contain the global scope.\r\n* global scope only (default)\r\n\r\nscope needs to be defined, but we may need a representation for no scope as well as global scope. \r\nWhile IP addresses and FQDNs might be useful to designate scope, the combination of IP FDQN may define completely different scopes. ( home.arpa IPsubnet0 ) and ( home.arpa IPsubnet1) are different scopes. There is also the case where the scope example.com does not includes subdomain.example.com, though I am not entirely sure. \r\n\r\n\r\n\r\nWhile section 3 takes the hypothesis that one starts with one resolver unencrypted resolver to discover the other alternative is a short term necessary step, but that we may also envision a longer term vision where the client is provisioned with an encrypted alternative or with some more abstract parameters that enables the discovery of the full set of resolvers without starting from one specific instance. One motivation is that informations associated to one instances are subject to change over time and a more abstract designation is likely to be able to handle such changes.\r\n\r\nWhile I believe that discovery of alternate resolver can include the case where the primary resolver is encrypted and I do only see the need to create a new section for a discovery input different from a resolver itself.\r\n\r\nI would thus opt for the following structure of the document.\r\n\r\n\r\nsection 3: Discovery of associated resolvers\r\nsection 4: Direct Discovery of resolvers\r\nsection 5: Discovered information\r\n\r\n\r\nSome other comment on section 3.1\r\n\r\n\r\nSection 3\r\n\r\nI suggest the following additional requirements:\r\n\r\nI suggested R1.1 also considered the discovery of resolvers or absence of of these resolvers. \r\n\"associated\" is reflexive, symmetric and transitive, so the discovery should apply in my opinion with any instance of the class, and in our case encrypted or unencrypted resolver. \r\nMaybe we can also turn the existence of the mechanisms into a property the discovery mechanisms ( or protocol) has. \r\nSo here are the changes I propose on R1.1 \r\n\r\nOLD:\r\nThere must be a mechanism for a client to learn the set of encrypted resolvers that are associated with an unencrypted resolver.\r\n\r\nNEW:\r\nDiscovery MUST provide a client to learn the set or absence of associated from any instance of resolver.\r\n\r\nI see R1.2 as reflecting the fact that the information that initiate the discover may beof local scope information. I think we may not restrict the information to a local IP address but to any local information that may include a local scope name ( home.arpa) for example. \r\nI am also not quite sure R1.2 has a nit with encrypted resolver. So unless I am reading R1.2 in a wrong way I would write is as:\r\n\r\nR1.2: When Discovery is instantiated from an resolver that resolver MAY be encrypted or not and MAY be globally or locally reachable. \r\n\r\n\r\n\r\nSection 3.1 \r\n\r\nI understand that authenticate that the DNS resolver.... is performed during the TLS handshake while DNS answers are coming after the handshake. Maybe it might ease the reading to place in a different order. At least, bullet 2 and 3 may be exchanged. \r\n\r\nThe section 3.1 seems exclusively focused on forwarders but I do not find the necessity to distinguish it from a resolver as described in section 4.1.1. In fact I would always expect the announced resolver of a network to be able to resolve local names. Of course if these resolvers belong to different domain they will have a different definition of what local is. Typically, the home network is a subnetwork of my ISP network which is a subnetwork of a larger ISP. Each of these network have a different understanding of local. \r\n\r\nMy understanding of these forwarders is that they perform two set of actions:\r\n* cache the response\r\n* split between internal naming and external naming. More specifically, if the request concerns a local scope name (home.arpa or .local) the name is forwarded to the internal (authoritative or recursive server). If the requested name concerns non local scope queries, the query is forwarded to the ISP resolver.  \r\n\r\nI m not entirely sure 4.1.2 and 4.1.3 cannot be included into 3.1. \r\n\r\nWhat I would suggest is to move 4.1.2 and 4.1.3 to section 3.1 and have that discussion of the different use cases in the header of section 3.1 - basically right after the paragraph \"Frequently, network....\" and change forwarder to local resolver in the title of section 3.1.1 and section 3.1.2.\r\n\r\n\r\n\r\nSection 3.1.1 unencrypted forwarders\r\n\r\nIt seems to me that the issue is more focused on a resolver that cannot be upgraded rather than that it is encrypted only. In the case of the forwarder, the consequences are not limited to the interface between the client and the forwarder but considering the communication between the client and the resolver with the forwarder in the middle, none of the segments are protected, i.e the communication between the client and the forwarder and the communication between the forwarder and the resolver.",
+      "createdAt": "2020-09-03T12:22:37Z",
+      "updatedAt": "2020-09-04T08:23:04Z",
+      "baseRepository": "ietf-wg-add/draft-add-requirements",
+      "baseRefName": "combined",
+      "baseRefOid": "37dc3603818a7c856bdaffa73530f036a890f517",
+      "headRepository": "mglt/draft-add-requirements",
+      "headRefName": "patch-1",
+      "headRefOid": "ebc995e7b8ac7db3557aea9e08af2273b25a0253",
+      "closedAt": "2020-09-04T08:23:04Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 14,
+      "id": "MDExOlB1bGxSZXF1ZXN0NDgwNjIyNzI3",
+      "title": "try to structure the use cases (resubmitting)",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/pull/14",
+      "state": "OPEN",
+      "author": "mglt",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I am resubmitting the PR I previously submitted on the combined branch. I realize the terminology has been added since then. so my intention is not to remove it. \r\n\r\nI tried to structure the use cases and initiated some requirements. This is of course a draft version that needs further work. I tried not to remove text, and instead just comment the text that I was not sure is needed. I might have cut a bit too much as I realised some use cases in the direct section were missing. For clarification I am not trying to remove a use case. \r\n\r\nThere are still quite a lot of work needed, this is a very early version of the text, but I prefer to  get early discussion to understand if the text is moving in the right direction. \r\n\r\nHere are some notes on the reasoning of the structure. I also leave some comments in the md text <!-- -->.  Please consider the comments below as random comments. I am not entirely convinced these need to be read if the diff can be read by itself.\r\n\r\nStructure of the document:\r\n\r\nsection 3: Discovery of associated resolvers\r\nThis section assumes that the client already has established a relation with a resolver that is not encrypted. \r\nFrom that starting point, it need to discover the other alternatives.\r\n\r\nThe primary resolver may be obtained through different ways which provides different level of trust in the relation. \r\n* DHCP\r\n* configuration\r\n* VPN\r\n\r\n\r\nThe primary resolver may be DoE aware or unaware\r\n\r\nThe primary may be with local / global IP address\r\n\r\nThe primary may have specific FQDN scope\r\n\r\nIn most cases though the scope is defined as: global scope + eventually a private scope and the use is selecting/provided/configured with the one that includes the private scope. \r\n\r\nscope is related to the discovery as the primary resolver may have a specific scope and discovery needs to be enabled with these different scopes. On the other hand, scope probably needs more specification for the selection. I would see such requirements as part of the discovery requirements not as a way to collect appropriated information related to the resolvers but rather as appropriated information that can be provided as input to the selection process. \r\n\r\nIn addition to the need be able to perform discover over various types of resolvers that have a limited scope, it also seems that scope an information that we may need to define better in order to provide a more accurate resolver selection. These are more related to the discovered information rather than the discovery protocol but it seems that requirements related to the discovered information remain in scope of this work.\r\n\r\nMy reading of it is that we are trying to refine this \"scope\" characteristic that is essential for an appropriated selection and that we are looking at typically the following distinctions:\r\n* explicit list of scopes that may not contain the global scope.\r\n* global scope only (default)\r\n\r\nscope needs to be defined, but we may need a representation for no scope as well as global scope. \r\nWhile IP addresses and FQDNs might be useful to designate scope, the combination of IP FDQN may define completely different scopes. ( home.arpa IPsubnet0 ) and ( home.arpa IPsubnet1) are different scopes. There is also the case where the scope example.com does not includes subdomain.example.com, though I am not entirely sure. \r\n\r\n\r\n\r\nWhile section 3 takes the hypothesis that one starts with one resolver unencrypted resolver to discover the other alternative is a short term necessary step, but that we may also envision a longer term vision where the client is provisioned with an encrypted alternative or with some more abstract parameters that enables the discovery of the full set of resolvers without starting from one specific instance. One motivation is that informations associated to one instances are subject to change over time and a more abstract designation is likely to be able to handle such changes.\r\n\r\nWhile I believe that discovery of alternate resolver can include the case where the primary resolver is encrypted and I do only see the need to create a new section for a discovery input different from a resolver itself.\r\n\r\nI would thus opt for the following structure of the document.\r\n\r\n\r\nsection 3: Discovery of associated resolvers\r\nsection 4: Direct Discovery of resolvers\r\nsection 5: Discovered information\r\n\r\n\r\nSome other comment on section 3.1\r\n\r\n\r\nSection 3\r\n\r\nI suggest the following additional requirements:\r\n\r\nI suggested R1.1 also considered the discovery of resolvers or absence of of these resolvers. \r\n\"associated\" is reflexive, symmetric and transitive, so the discovery should apply in my opinion with any instance of the class, and in our case encrypted or unencrypted resolver. \r\nMaybe we can also turn the existence of the mechanisms into a property the discovery mechanisms ( or protocol) has. \r\nSo here are the changes I propose on R1.1 \r\n\r\nOLD:\r\nThere must be a mechanism for a client to learn the set of encrypted resolvers that are associated with an unencrypted resolver.\r\n\r\nNEW:\r\nDiscovery MUST provide a client to learn the set or absence of associated from any instance of resolver.\r\n\r\nI see R1.2 as reflecting the fact that the information that initiate the discover may beof local scope information. I think we may not restrict the information to a local IP address but to any local information that may include a local scope name ( home.arpa) for example. \r\nI am also not quite sure R1.2 has a nit with encrypted resolver. So unless I am reading R1.2 in a wrong way I would write is as:\r\n\r\nR1.2: When Discovery is instantiated from an resolver that resolver MAY be encrypted or not and MAY be globally or locally reachable. \r\n\r\n\r\n\r\nSection 3.1 \r\n\r\nI understand that authenticate that the DNS resolver.... is performed during the TLS handshake while DNS answers are coming after the handshake. Maybe it might ease the reading to place in a different order. At least, bullet 2 and 3 may be exchanged. \r\n\r\nThe section 3.1 seems exclusively focused on forwarders but I do not find the necessity to distinguish it from a resolver as described in section 4.1.1. In fact I would always expect the announced resolver of a network to be able to resolve local names. Of course if these resolvers belong to different domain they will have a different definition of what local is. Typically, the home network is a subnetwork of my ISP network which is a subnetwork of a larger ISP. Each of these network have a different understanding of local. \r\n\r\nMy understanding of these forwarders is that they perform two set of actions:\r\n* cache the response\r\n* split between internal naming and external naming. More specifically, if the request concerns a local scope name (home.arpa or .local) the name is forwarded to the internal (authoritative or recursive server). If the requested name concerns non local scope queries, the query is forwarded to the ISP resolver.  \r\n\r\nI m not entirely sure 4.1.2 and 4.1.3 cannot be included into 3.1. \r\n\r\nWhat I would suggest is to move 4.1.2 and 4.1.3 to section 3.1 and have that discussion of the different use cases in the header of section 3.1 - basically right after the paragraph \"Frequently, network....\" and change forwarder to local resolver in the title of section 3.1.1 and section 3.1.2.\r\n\r\n\r\n\r\nSection 3.1.1 unencrypted forwarders\r\n\r\nIt seems to me that the issue is more focused on a resolver that cannot be upgraded rather than that it is encrypted only. In the case of the forwarder, the consequences are not limited to the interface between the client and the forwarder but considering the communication between the client and the resolver with the forwarder in the middle, none of the segments are protected, i.e the communication between the client and the forwarder and the communication between the forwarder and the resolver.",
+      "createdAt": "2020-09-06T00:31:35Z",
+      "updatedAt": "2020-09-06T00:31:35Z",
+      "baseRepository": "ietf-wg-add/draft-add-requirements",
+      "baseRefName": "master",
+      "baseRefOid": "ff8f541f64af9c7be30a6527d449d8444f80bb17",
+      "headRepository": "mglt/draft-add-requirements",
+      "headRefName": "patch-1",
+      "headRefOid": "ebc995e7b8ac7db3557aea9e08af2273b25a0253",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 31,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTEzMzczMDM4",
+      "title": "Clean up requirements list",
+      "url": "https://github.com/ietf-wg-add/draft-add-requirements/pull/31",
+      "state": "MERGED",
+      "author": "tfpauly",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Clean up list of requirements (see email feedback for some details).",
+      "createdAt": "2020-10-31T04:49:47Z",
+      "updatedAt": "2020-10-31T08:07:24Z",
+      "baseRepository": "ietf-wg-add/draft-add-requirements",
+      "baseRefName": "master",
+      "baseRefOid": "fe0dfb5e77ecaf87fd69e1da2ea301bccf9fc4e7",
+      "headRepository": "tfpauly/draft-add-requirements",
+      "headRefName": "tfp/cleanup-requirements",
+      "headRefOid": "b56dc576b507e364b60b9c02145750e0dbf63bf7",
+      "closedAt": "2020-10-31T08:07:24Z",
+      "mergedAt": "2020-10-31T08:07:24Z",
+      "mergedBy": "chris-box",
+      "mergeCommit": {
+        "oid": "87315727fe4ca93c8d7dbb772c202978668c31df"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
