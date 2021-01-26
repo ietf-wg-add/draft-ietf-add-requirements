@@ -3,7 +3,7 @@
 
 For the IETF ADD interim, January 2021
 
-Authors:
+Rough consensus of:
 * Chris Box
 * Tommy Jensen
 * Tiru Reddy
