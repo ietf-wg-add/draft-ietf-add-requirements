@@ -22,7 +22,7 @@ Rough consensus of:
 
 1. DNS configuration on explicitly trusted networks
 2. Resolver behavior self-description
-3. Publishing and using directories of encrypted resolvers
+3. Publishing and using collections of encrypted resolvers
 ----
 # Goals
 
