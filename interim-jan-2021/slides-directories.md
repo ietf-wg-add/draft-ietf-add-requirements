@@ -1,4 +1,4 @@
-# Scenario 3: Directories of Encrypted Resolvers
+# Scenario 3: Collections of Encrypted Resolvers
 
 Three Parties:
 * Publisher: Curates a list of distinct resolvers
