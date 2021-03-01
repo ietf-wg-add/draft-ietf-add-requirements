@@ -1,7 +1,7 @@
 ---
 title: "Requirements for Discovering Designated Resolvers"
 abbrev: "ADDREQ"
-docname: draft-box-add-requirements-02
+docname: draft-ietf-add-requirements-00
 category: info
 
 ipr: trust200902
