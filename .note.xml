@@ -1,4 +1,7 @@
-<note title="Discussion Venues" removeInRFC="true">
-<t>Source for this draft and an issue tracker can be found at
-  <eref target="https://github.com/ietf-wg-add/draft-add-requirements"/>.</t>
+<note title="Discussion Venues">
+<t>Source for this draft can be found at
+  <eref target="https://github.com/ietf-wg-add/draft-ietf-add-requirements/"/>.</t>
+<t>Discussion of this document and associated solutions takes place in the
+  ADD Working Group mailing list (add@ietf.org), which is archived at
+  <eref target="https://mailarchive.ietf.org/arch/browse/add/"/>.</t>
 </note>
