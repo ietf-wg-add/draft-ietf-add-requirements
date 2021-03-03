@@ -5,14 +5,14 @@
 ADD                                                               C. Box
 Internet-Draft                                                        BT
 Intended status: Informational                                  T. Pauly
-Expires: 2 September 2021                                          Apple
+Expires: 4 September 2021                                          Apple
                                                                C.A. Wood
                                                               Cloudflare
                                                                 T. Reddy
                                                                   McAfee
                                                               D. Migault
                                                                 Ericsson
-                                                            1 March 2021
+                                                            3 March 2021
 
 
            Requirements for Discovering Designated Resolvers
@@ -31,10 +31,12 @@ Abstract
 
 Discussion Venues
 
-   This note is to be removed before publishing as an RFC.
+   Source for this draft can be found at https://github.com/ietf-wg-add/
+   draft-ietf-add-requirements/.
 
-   Source for this draft and an issue tracker can be found at
-   https://github.com/ietf-wg-add/draft-add-requirements.
+   Discussion of this document and associated solutions takes place in
+   the ADD Working Group mailing list (add@ietf.org), which is archived
+   at https://mailarchive.ietf.org/arch/browse/add/.
 
 Status of This Memo
 
@@ -51,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 September 2021.
+   This Internet-Draft will expire on 4 September 2021.
 
 Copyright Notice
 
